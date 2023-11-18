@@ -1,0 +1,173 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "CounterOut[0]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[8]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[9]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[10]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[11]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[12]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[13]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[14]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterOut[15]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "DoDecrement",
+					"strict" : false
+				},
+				{
+					"name" : "DoShiftL2R",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInLSB",
+					"strict" : false
+				},
+				{
+					"name" : "DoShiftR2L",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "DoIncrement",
+					"strict" : false
+				},
+				{
+					"name" : "DoReset",
+					"strict" : false
+				},
+				{
+					"name" : "DoLoad",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[5]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[6]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInMSB",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[8]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[9]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[10]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[11]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[12]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[13]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[14]",
+					"strict" : false
+				},
+				{
+					"name" : "CounterInData[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

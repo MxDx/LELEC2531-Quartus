@@ -1,0 +1,504 @@
+# Compile of full_adder_4_bit.sv was successful.
+# Compile of test_fulladder_4bit.sv was successful.
+# Compile of full_adder_1_bit.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of full_adder_4_bit.sv was successful.
+# Compile of test_fulladder_4bit.sv was successful.
+# Compile of full_adder_1_bit.sv was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+vsim -gui work.test_fulladder_4bit
+# vsim -gui work.test_fulladder_4bit 
+# Start time: 14:35:17 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+add wave -position insertpoint  \
+sim:/test_fulladder_4bit/A
+add wave -position insertpoint  \
+sim:/test_fulladder_4bit/B
+add wave -position insertpoint  \
+sim:/test_fulladder_4bit/C_IN
+add wave -position insertpoint  \
+sim:/test_fulladder_4bit/SUM
+add wave -position insertpoint  \
+sim:/test_fulladder_4bit/C_OUT
+run 10ns
+vsim -gui work.test_fulladder_4bit
+# End time: 14:41:42 on Sep 25,2023, Elapsed time: 0:06:25
+# Errors: 0, Warnings: 0
+# vsim -gui work.test_fulladder_4bit 
+# Start time: 14:41:42 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+run 10ns
+add wave -position insertpoint  \
+sim:/test_fulladder_4bit/A \
+sim:/test_fulladder_4bit/B \
+sim:/test_fulladder_4bit/C_IN \
+sim:/test_fulladder_4bit/SUM \
+sim:/test_fulladder_4bit/C_OUT
+vsim -gui work.test_fulladder_4bit
+# End time: 14:44:10 on Sep 25,2023, Elapsed time: 0:02:28
+# Errors: 0, Warnings: 0
+# vsim -gui work.test_fulladder_4bit 
+# Start time: 14:44:10 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+add wave -position insertpoint  \
+sim:/test_fulladder_4bit/A \
+sim:/test_fulladder_4bit/B \
+sim:/test_fulladder_4bit/C_IN \
+sim:/test_fulladder_4bit/C_OUT \
+sim:/test_fulladder_4bit/SUM
+run 10ns
+restart
+run 10ns
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/delacroixmax/Documents/ModelSim - Project/wave.do}
+run 50ns
+run 30ns
+restart
+run 30ns
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+add wave -position insertpoint sim:/test_fulladder_4bit/FA_4BIT/FA0/*
+add wave -position insertpoint sim:/test_fulladder_4bit/FA_4BIT/FA1/*
+add wave -position insertpoint sim:/test_fulladder_4bit/FA_4BIT/FA2/*
+add wave -position insertpoint sim:/test_fulladder_4bit/FA_4BIT/FA3/*
+restart 
+run 30ns
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+add dataflow sim:/test_fulladder_4bit/FA_4BIT/FA3/*
+# WARNING: No extended dataflow license exists
+add dataflow sim:/test_fulladder_4bit/FA_4BIT/*
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+do 0
+# Cannot open macro file: 0
+do {C:/Users/delacroixmax/Documents/ModelSim - Project/wave.do}
+# ** Error: can't read "1": no such variable
+# Error in macro C:\Users\delacroixmax\Documents\ModelSim - Project\wave.do line 16
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+# restart the simulation (can be useful if you add a new signal to the Wave)
+# restart f
+# } else {
+# delete all signals in the Wave (ac..."
+do 
+# No filename specified
+do 1
+# Cannot open macro file: 1
+wave
+# wrong # args: should be "wave subcommand ?argument ...?"
+wave.do
+# couldn't execute ".\wave.do": no such file or directory
+do
+# No filename specified
+do {C:/Users/delacroixmax/Documents/ModelSim - Project/wave.do}
+# ** Error: can't read "1": no such variable
+# Error in macro C:\Users\delacroixmax\Documents\ModelSim - Project\wave.do line 16
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+# restart the simulation (can be useful if you add a new signal to the Wave)
+# restart f
+# } else {
+# delete all signals in the Wave (ac..."
+do {C:/Users/delacroixmax/Documents/ModelSim - Project/wave.do}
+# ** Error: can't read "1": no such variable
+# Error in macro C:\Users\delacroixmax\Documents\ModelSim - Project\wave.do line 16
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+#     # restart the simulation (can be useful if you add a new signal to the Wave)
+#     restart f
+# } else {
+#     # delete all signals in ..."
+do
+# No filename specified
+do {C:/Users/delacroixmax/Documents/ModelSim - Project/wave.do}
+# ** Error: can't read "1": no such variable
+# Error in macro C:\Users\delacroixmax\Documents\ModelSim - Project\wave.do line 16
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+#     # restart the simulation (can be useful if you add a new signal to the Wave)
+#     restart f
+# } else {
+#     # delete all signals in ..."
+wave.do 0
+# couldn't execute ".\wave.do": no such file or directory
+wave.do 0
+# couldn't execute ".\wave.do": no such file or directory
+do wave.do 0
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 
+# ** Error: can't read "1": no such variable
+# Error in macro ./wave.do line 16
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+#     # restart the simulation (can be useful if you add a new signal to the Wave)
+#     restart f
+# } else {
+#     # delete all signals in ..."
+do wave.do
+# ** Error: can't read "1": no such variable
+# Error in macro ./wave.do line 16
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+#     # restart the simulation (can be useful if you add a new signal to the Wave)
+#     restart f
+# } else {
+#     # delete all signals in ..."
+do wave.do 0
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 
+# ** Error: can't read "1": no such variable
+# Error in macro ./wave.do line 41
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+#     # restart the simulation (can be useful if you add a new signal to the Wave)
+#     restart f
+# } else {
+#     # delete all signals in ..."
+do wave.do
+# ** Error: can't read "1": no such variable
+# Error in macro ./wave.do line 41
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+#     # restart the simulation (can be useful if you add a new signal to the Wave)
+#     restart f
+# } else {
+#     # delete all signals in ..."
+restart f
+do wave.do
+# ** Error: can't read "1": no such variable
+# Error in macro ./wave.do line 41
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+#     # restart the simulation (can be useful if you add a new signal to the Wave)
+#     restart f
+# } else {
+#     # delete all signals in ..."
+do wave.do
+# ** Error: can't read "1": no such variable
+# Error in macro ./wave.do line 41
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+#     # restart the simulation (can be useful if you add a new signal to the Wave)
+#     restart f
+# } else {
+#     # delete all signals in ..."
+do wave.do
+# ** Error: can't read "1": no such variable
+# Error in macro ./wave.do line 41
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+#     # restart the simulation (can be useful if you add a new signal to the Wave)
+#     restart f
+# } else {
+#     # delete all signals in ..."
+do wave.do 0
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 
+# ** Error: can't read "1": no such variable
+# Error in macro ./wave.do line 16
+# can't read "1": no such variable
+#     while executing
+# "if {$1 == 0} {
+#     # restart the simulation (can be useful if you add a new signal to the Wave)
+#     restart f
+# } else {
+#     # delete all signals in ..."
+do wave.do 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:22:45 on Sep 25,2023
+# vlog -reportprogress 300 full_adder_1_bit.sv full_adder_4_bit.sv test_fulladder_4bit.sv 
+# -- Compiling module full_adder_1_bit
+# -- Compiling module full_adder_4_bit
+# -- Compiling module test_fulladder_4bit
+# 
+# Top level modules:
+# 	test_fulladder_4bit
+# End time: 15:22:45 on Sep 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:22:46 on Sep 25,2023, Elapsed time: 0:38:36
+# Errors: 46, Warnings: 1
+# vsim -gui -t ns work.test_fulladder_4bit 
+# Start time: 15:22:46 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+add wave -position insertpoint sim:/test_fulladder_4bit/FA_4BIT/FA0/*
+add wave -position insertpoint sim:/test_fulladder_4bit/FA_4BIT/FA1/*
+add wave -position insertpoint sim:/test_fulladder_4bit/FA_4BIT/FA2/*
+add wave -position insertpoint sim:/test_fulladder_4bit/FA_4BIT/FA3/*
+run 20ns
+restart
+run 30ns
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/delacroixmax/Documents/ModelSim - Project/wave.do}
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/delacroixmax/Documents/ModelSim - Project/wave.do}
+do wave.do 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:27:51 on Sep 25,2023
+# vlog -reportprogress 300 full_adder_1_bit.sv full_adder_4_bit.sv test_fulladder_4bit.sv 
+# -- Compiling module full_adder_1_bit
+# -- Compiling module full_adder_4_bit
+# -- Compiling module test_fulladder_4bit
+# 
+# Top level modules:
+# 	test_fulladder_4bit
+# End time: 15:27:51 on Sep 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:27:52 on Sep 25,2023, Elapsed time: 0:05:06
+# Errors: 0, Warnings: 0
+# vsim -gui -t ns work.test_fulladder_4bit 
+# Start time: 15:27:52 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+do wave.do 0
+do wave.do 111
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:12 on Sep 25,2023
+# vlog -reportprogress 300 full_adder_1_bit.sv full_adder_4_bit.sv test_fulladder_4bit.sv 
+# -- Compiling module full_adder_1_bit
+# -- Compiling module full_adder_4_bit
+# -- Compiling module test_fulladder_4bit
+# 
+# Top level modules:
+# 	test_fulladder_4bit
+# End time: 15:28:12 on Sep 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:28:13 on Sep 25,2023, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
+# vsim -gui -t ns work.test_fulladder_4bit 
+# Start time: 15:28:13 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+do wave.do 111
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:34 on Sep 25,2023
+# vlog -reportprogress 300 full_adder_1_bit.sv full_adder_4_bit.sv test_fulladder_4bit.sv 
+# -- Compiling module full_adder_1_bit
+# -- Compiling module full_adder_4_bit
+# -- Compiling module test_fulladder_4bit
+# 
+# Top level modules:
+# 	test_fulladder_4bit
+# End time: 15:28:34 on Sep 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:28:35 on Sep 25,2023, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim -gui -t ns work.test_fulladder_4bit 
+# Start time: 15:28:35 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+do wave.do 1 10
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:29:40 on Sep 25,2023
+# vlog -reportprogress 300 full_adder_1_bit.sv full_adder_4_bit.sv test_fulladder_4bit.sv 
+# -- Compiling module full_adder_1_bit
+# -- Compiling module full_adder_4_bit
+# -- Compiling module test_fulladder_4bit
+# 
+# Top level modules:
+# 	test_fulladder_4bit
+# End time: 15:29:40 on Sep 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:29:40 on Sep 25,2023, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 0
+# vsim -gui -t ns work.test_fulladder_4bit 
+# Start time: 15:29:40 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+# ** Error: extra characters after close-brace
+# Executing ONERROR command at macro ./wave.do line 63
+do wave.do 1 10
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:29:57 on Sep 25,2023
+# vlog -reportprogress 300 full_adder_1_bit.sv full_adder_4_bit.sv test_fulladder_4bit.sv 
+# -- Compiling module full_adder_1_bit
+# -- Compiling module full_adder_4_bit
+# -- Compiling module test_fulladder_4bit
+# 
+# Top level modules:
+# 	test_fulladder_4bit
+# End time: 15:29:57 on Sep 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:29:57 on Sep 25,2023, Elapsed time: 0:00:17
+# Errors: 3, Warnings: 0
+# vsim -gui -t ns work.test_fulladder_4bit 
+# Start time: 15:29:57 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+# ** Error: can't read "2ns": no such variable
+# Executing ONERROR command at macro ./wave.do line 63
+do wave.do 1 10
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:30:08 on Sep 25,2023
+# vlog -reportprogress 300 full_adder_1_bit.sv full_adder_4_bit.sv test_fulladder_4bit.sv 
+# -- Compiling module full_adder_1_bit
+# -- Compiling module full_adder_4_bit
+# -- Compiling module test_fulladder_4bit
+# 
+# Top level modules:
+# 	test_fulladder_4bit
+# End time: 15:30:09 on Sep 25,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:30:09 on Sep 25,2023, Elapsed time: 0:00:12
+# Errors: 3, Warnings: 0
+# vsim -gui -t ns work.test_fulladder_4bit 
+# Start time: 15:30:09 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+# ** Error: can't read "2ns": no such variable
+# Executing ONERROR command at macro ./wave.do line 63
+do wave.do 1 10
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:30:18 on Sep 25,2023
+# vlog -reportprogress 300 full_adder_1_bit.sv full_adder_4_bit.sv test_fulladder_4bit.sv 
+# -- Compiling module full_adder_1_bit
+# -- Compiling module full_adder_4_bit
+# -- Compiling module test_fulladder_4bit
+# 
+# Top level modules:
+# 	test_fulladder_4bit
+# End time: 15:30:18 on Sep 25,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:30:19 on Sep 25,2023, Elapsed time: 0:00:10
+# Errors: 3, Warnings: 0
+# vsim -gui -t ns work.test_fulladder_4bit 
+# Start time: 15:30:19 on Sep 25,2023
+# Loading sv_std.std
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+do wave.do 0 10
+
+do wave.do 0 10
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/delacroixmax/Documents/ModelSim - Project/wave.do}
+do wave.do 0 10
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0 10
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# Compile of full_adder_1_bit.sv was successful.
+# Compile of full_adder_1_bit.sv was successful.
+# Compile of full_adder_1_bit.sv was successful.
+do wave.do 0 10
+# Loading work.full_adder_1_bit
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# Compile of full_adder_4_bit.sv was successful.
+# Compile of test_fulladder_4bit.sv was successful.
+# Compile of full_adder_1_bit.sv was successful.
+# 3 compiles, 0 failed with no errors.
+do wave.do 0 10
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0 15
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+# Compile of full_adder_4_bit.sv was successful.
+# Compile of test_fulladder_4bit.sv was successful.
+# Compile of full_adder_1_bit.sv was successful.
+# 3 compiles, 0 failed with no errors.
+do wave.do 0 15
+# Loading work.test_fulladder_4bit
+# Loading work.full_adder_4_bit
+# Loading work.full_adder_1_bit
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0 15
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0 35
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0 35
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 
+do wave.do 0 15
+# GetModuleFileName: Le module spécifié est introuvable.
+# 
+# 

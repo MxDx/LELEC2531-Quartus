@@ -1,0 +1,487 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1699569823
+!i10b 1
+!s100 7gaXM?BF75]5ZTGhi=Tm50
+IY@Ea?`z?W;^IaZbjDUd4@1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 MyARM_SingleCycle_sv_unit
+S1
+R0
+Z5 w1699569800
+Z6 8C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv
+Z7 FC:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv
+L0 366
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1699569823.000000
+Z10 !s107 C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle|C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle
+Z14 tCvgOpt 0
+valu
+R1
+R2
+!i10b 1
+!s100 BF3Sco6QVKFZI@z@P8PaT1
+IOGCf]kb8Qi?aK5;dIRI9Y0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 401
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+varm
+R1
+R2
+!i10b 1
+!s100 Ub_I0W<Mf9^Rg8>@cKZNW2
+I^iWZKneBQBk_;EgDB4F`m0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 99
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcondcheck
+R1
+R2
+!i10b 1
+!s100 H>M7^4S2m]E]^bAQh]ijF2
+I<mf0]kWl?lM9:n6eTjVF11
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 235
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcondlogic
+R1
+R2
+!i10b 1
+!s100 F_eUSQ4f=Ncdm0f1C^zP>0
+I=m]nZK4G3j3<gcZW;6ceI3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 211
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcontroller
+R1
+R2
+!i10b 1
+!s100 K2zzo>KTFkZW5NSj[hBDI1
+Ik6i9i`>4_7`ZLJ8OheHQH1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 125
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdatapath
+R1
+R2
+!i10b 1
+!s100 ijgT;O3SV0PCQg:9A=PYT1
+I;;TnjTeL??386aG9^]4A?3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 265
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdecode
+R1
+R2
+!i10b 1
+!s100 nS=O>^PP3ED`9N[69UDA>2
+I<]zDk5MOEXz17;Q6XBMRP0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 148
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdmem
+R1
+R2
+!i10b 1
+!s100 f]iWLOYk=Un6IQA;S?2zN2
+IjQlm=^?@3zRfS=l1EDYkk3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 76
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vextend
+R1
+R2
+!i10b 1
+!s100 oA>=7>4MRJiIHK`^I@`^H1
+ITTR]RgZ9<NhJAJ8b]mXmL2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 350
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopenr
+R1
+R2
+!i10b 1
+!s100 56RO2On@EzkYaKTMNfL[32
+INE]5CKZQ;FT1JJYIOb^[W1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 373
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopr
+R1
+R2
+!i10b 1
+!s100 cWI9HR65F>jH5Tdh[<?Rh0
+I;AXOAl;djmG1aojb`d?[f3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 383
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vimem
+R1
+R2
+!i10b 1
+!s100 ;BP[M[Fz?S9=^o<RNgD5;0
+IPFG_RVUP1ZPlVQRR?G9OA0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 88
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vldrb
+R1
+R2
+!i10b 1
+!s100 1Eok;DNMP>R6F5bU]R>QM1
+I[iPKe7Gd:GfH^nm1ME8412
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 315
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmux2
+R1
+R2
+!i10b 1
+!s100 72^=RImEPZzQdm5BOc2C30
+I@LcfzKccN`lPPJ:PRzkl[1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 393
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vMyDE0_Nano
+R1
+R2
+!i10b 1
+!s100 ;2^hmCfajnZliINBEY5UU0
+I=k;^Qe6ldk_`a^JiedS6_1
+R3
+!s105 MyDE0_Nano_sv_unit
+S1
+R0
+Z15 w1699347096
+8C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv
+FC:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle|C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv|
+!i113 1
+R12
+R13
+R14
+n@my@d@e0_@nano
+vMyTestbench
+R1
+!s110 1699569824
+!i10b 1
+!s100 76Q1=Y<l2z<UXdfcgSR?g1
+IY9;JVmdKU3IjB2Jf2`n1h2
+R3
+!s105 MyTestbench_sv_unit
+S1
+R0
+w1699567610
+8C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv
+FC:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle|C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv|
+!i113 1
+R12
+R13
+R14
+n@my@testbench
+vregfile
+R1
+R2
+!i10b 1
+!s100 Wi9Z]QFlNdGIX>G=L;iA;0
+Ik4N57gVF>KI[96gdQ_di82
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 330
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vspi_slave
+R1
+R2
+!i10b 1
+!s100 >LSiL=lACVh_OX=dLM0^R3
+I:?_>lE49O^SzoVVK1FK100
+R3
+!s105 MySPI_sv_unit
+S1
+R0
+R15
+8C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MySPI.sv
+FC:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MySPI.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MySPI.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle|C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MySPI.sv|
+!i113 1
+R12
+R13
+R14

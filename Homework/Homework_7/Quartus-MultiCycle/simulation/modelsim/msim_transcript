@@ -1,0 +1,205 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do MyDE0_Nano_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/maxim/My\ Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle {C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyARM_MultiCycle.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:24:32 on Nov 18,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle" C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyARM_MultiCycle.sv 
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decode
+# -- Compiling module mainfsm
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module mux3
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	arm
+# 	adder
+# End time: 18:24:32 on Nov 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/maxim/My\ Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle {C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyDE0_Nano.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:24:32 on Nov 18,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle" C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyDE0_Nano.sv 
+# -- Compiling module MyDE0_Nano
+# -- Compiling module mem
+# 
+# Top level modules:
+# 	MyDE0_Nano
+# End time: 18:24:32 on Nov 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/maxim/My\ Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle {C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:24:32 on Nov 18,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle" C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv 
+# -- Compiling module MyTestbench
+# 
+# Top level modules:
+# 	MyTestbench
+# End time: 18:24:32 on Nov 18,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  MyTestbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" MyTestbench 
+# Start time: 18:24:32 on Nov 18,2023
+# Loading sv_std.std
+# Loading work.MyTestbench
+# Loading work.MyDE0_Nano
+# Loading work.arm
+# Loading work.controller
+# Loading work.decode
+# Loading work.mainfsm
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+# Loading work.flopr
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.mux3
+# Loading work.alu
+# Loading work.mem
+# ** Warning: (vsim-3017) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Too few port connections. Expected 32, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MyTestbench/dut File: C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyDE0_Nano.sv
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'LED'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_DQM'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_ASDO'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_DATA0'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_DCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_NCSO'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'G_SENSOR_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'G_SENSOR_INT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'I2C_SCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'I2C_SDAT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_SADDR'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_SDAT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'GPIO_2_IN'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'GPIO_0_PI_IN'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'GPIO_1_IN'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(47)
+#    Time: 755 ps  Iteration: 1  Instance: /MyTestbench
+# Break in Module MyTestbench at C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv line 47
+vsim work.MyTestbench
+# End time: 18:29:47 on Nov 18,2023, Elapsed time: 0:05:15
+# Errors: 0, Warnings: 29
+# vsim work.MyTestbench 
+# Start time: 18:29:47 on Nov 18,2023
+# Loading sv_std.std
+# Loading work.MyTestbench
+# Loading work.MyDE0_Nano
+# Loading work.arm
+# Loading work.controller
+# Loading work.decode
+# Loading work.mainfsm
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+# Loading work.flopr
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.mux3
+# Loading work.alu
+# Loading work.mem
+# ** Warning: (vsim-3017) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Too few port connections. Expected 32, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MyTestbench/dut File: C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyDE0_Nano.sv
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'LED'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_DQM'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_ASDO'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_DATA0'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_DCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_NCSO'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'G_SENSOR_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'G_SENSOR_INT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'I2C_SCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'I2C_SDAT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_SADDR'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_SDAT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'GPIO_2_IN'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'GPIO_0_PI_IN'.
+# ** Warning: (vsim-3722) C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'GPIO_1_IN'.
+add wave -position insertpoint  \
+sim:/MyTestbench/clk
+add wave -position insertpoint  \
+sim:/MyTestbench/reset
+add wave -position insertpoint  \
+sim:/MyTestbench/dut/arm/Adr
+add wave -position insertpoint  \
+sim:/MyTestbench/dut/arm/Instr
+add wave -position insertpoint  \
+sim:/MyTestbench/dut/arm/WriteData
+add wave -position insertpoint  \
+sim:/MyTestbench/dut/arm/MemWrite
+add wave -position insertpoint  \
+sim:/MyTestbench/dut/arm/ReadData
+add wave -position insertpoint  \
+sim:/MyTestbench/dut/arm/dp/ALUResult
+run 100 ps
+run 100 ps
+run 100 ps
+run 100 ps
+run 100 ps
+run 100 ps
+run 100 ps
+run 100 ps
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv(47)
+#    Time: 755 ps  Iteration: 1  Instance: /MyTestbench
+# Break in Module MyTestbench at C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv line 47
+# End time: 18:54:59 on Nov 18,2023, Elapsed time: 0:25:12
+# Errors: 0, Warnings: 29

@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/18.1
+vfull_adder_1_bit
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1695649061
+!i10b 1
+!s100 ieh@9PCKJ_G3oicC9U_;R0
+IP^Bi^9VeU?2Za7ZdIa<kn0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 full_adder_1_bit_sv_unit
+S1
+Z3 dC:/Users/delacroixmax/Documents/ModelSim - Project
+Z4 w1695644945
+8C:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_1_bit.sv
+FC:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_1_bit.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1695649061.000000
+!s107 C:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_1_bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_1_bit.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vfull_adder_4_bit
+R0
+R1
+!i10b 1
+!s100 m?L??hW?I[zKE]^mESLPa1
+IB1mN7cF6JAJ16T9Ig^RON3
+R2
+!s105 full_adder_4_bit_sv_unit
+S1
+R3
+R4
+8C:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_4_bit.sv
+FC:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_4_bit.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_4_bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_4_bit.sv|
+!i113 1
+R7
+R8
+vtest_fulladder_4bit
+R0
+R1
+!i10b 1
+!s100 eMW8Wo7ZPWXE?ii6=ZRNF3
+I7^FUZAT]`OaYlO:okTTMP2
+R2
+!s105 test_fulladder_4bit_sv_unit
+S1
+R3
+w1695648999
+8C:/Users/delacroixmax/Documents/ModelSim - Project/test_fulladder_4bit.sv
+FC:/Users/delacroixmax/Documents/ModelSim - Project/test_fulladder_4bit.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/delacroixmax/Documents/ModelSim - Project/test_fulladder_4bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/delacroixmax/Documents/ModelSim - Project/test_fulladder_4bit.sv|
+!i113 1
+R7
+R8

@@ -1,0 +1,47 @@
+
+MyProgram:     format de fichier elf32-littlearm
+
+
+Déassemblage de la section .text :
+
+00010500 <main>:
+   10500:	e04f000f 	sub	r0, pc, pc
+   10504:	e2802005 	add	r2, r0, #5
+   10508:	e280300c 	add	r3, r0, #12
+   1050c:	e2437009 	sub	r7, r3, #9
+   10510:	e1874002 	orr	r4, r7, r2
+   10514:	e0035004 	and	r5, r3, r4
+   10518:	e0855004 	add	r5, r5, r4
+   1051c:	e0558007 	subs	r8, r5, r7
+   10520:	0a00000c 	beq	10558 <END>
+   10524:	e0538004 	subs	r8, r3, r4
+   10528:	aa000000 	bge	10530 <AROUND>
+   1052c:	e2805000 	add	r5, r0, #0
+
+00010530 <AROUND>:
+   10530:	e0578002 	subs	r8, r7, r2
+   10534:	b2857001 	addlt	r7, r5, #1
+   10538:	e0477002 	sub	r7, r7, r2
+   1053c:	e5837054 	str	r7, [r3, #84]	; 0x54
+   10540:	e5902060 	ldr	r2, [r0, #96]	; 0x60
+   10544:	e08ff000 	add	pc, pc, r0
+   10548:	e280200e 	add	r2, r0, #14
+   1054c:	ea000001 	b	10558 <END>
+   10550:	e280200d 	add	r2, r0, #13
+   10554:	e280200a 	add	r2, r0, #10
+
+00010558 <END>:
+   10558:	e5802064 	str	r2, [r0, #100]	; 0x64
+   1055c:	e5802200 	str	r2, [r0, #512]	; 0x200
+   10560:	e5800800 	str	r0, [r0, #2048]	; 0x800
+
+00010564 <LOOP>:
+   10564:	e5901400 	ldr	r1, [r0, #1024]	; 0x400
+
+00010568 <DELAY>:
+   10568:	e2511001 	subs	r1, r1, #1
+   1056c:	1afffffd 	bne	10568 <DELAY>
+   10570:	e5902800 	ldr	r2, [r0, #2048]	; 0x800
+   10574:	e2822001 	add	r2, r2, #1
+   10578:	e5802800 	str	r2, [r0, #2048]	; 0x800
+   1057c:	eafffff8 	b	10564 <LOOP>

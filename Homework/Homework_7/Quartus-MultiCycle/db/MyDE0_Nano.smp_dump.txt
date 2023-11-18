@@ -1,0 +1,14 @@
+
+State Machine - |MyDE0_Nano|arm:arm|controller:c|decode:dec|mainfsm:fsm|state
+Name state.UNKNOWN state.MEMWRITE state.BRANCH state.ALUWB state.EXECUTEI state.EXECUTER state.MEMWB state.MEMRD state.MEMADR state.DECODE state.FETCH 
+state.FETCH 0 0 0 0 0 0 0 0 0 0 0 
+state.DECODE 0 0 0 0 0 0 0 0 0 1 1 
+state.MEMADR 0 0 0 0 0 0 0 0 1 0 1 
+state.MEMRD 0 0 0 0 0 0 0 1 0 0 1 
+state.MEMWB 0 0 0 0 0 0 1 0 0 0 1 
+state.EXECUTER 0 0 0 0 0 1 0 0 0 0 1 
+state.EXECUTEI 0 0 0 0 1 0 0 0 0 0 1 
+state.ALUWB 0 0 0 1 0 0 0 0 0 0 1 
+state.BRANCH 0 0 1 0 0 0 0 0 0 0 1 
+state.MEMWRITE 0 1 0 0 0 0 0 0 0 0 1 
+state.UNKNOWN 1 0 0 0 0 0 0 0 0 0 1 

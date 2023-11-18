@@ -1,0 +1,61 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "la",
+					"strict" : false
+				},
+				{
+					"name" : "lb",
+					"strict" : false
+				},
+				{
+					"name" : "lc",
+					"strict" : false
+				},
+				{
+					"name" : "ra",
+					"strict" : false
+				},
+				{
+					"name" : "rb",
+					"strict" : false
+				},
+				{
+					"name" : "rc",
+					"strict" : false
+				},
+				{
+					"name" : "brake",
+					"strict" : false
+				},
+				{
+					"name" : "alarm",
+					"strict" : false
+				},
+				{
+					"name" : "left",
+					"strict" : false
+				},
+				{
+					"name" : "fog",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "right",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

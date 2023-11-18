@@ -1,0 +1,64 @@
+|test_fulladder_4bit
+
+
+|test_fulladder_4bit|full_adder_4_bit:FA_4BIT
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c_in => c_in.IN1
+sum[0] <= full_adder_1_bit:FA0.sum
+sum[1] <= full_adder_1_bit:FA1.sum
+sum[2] <= full_adder_1_bit:FA2.sum
+sum[3] <= full_adder_1_bit:FA3.sum
+c_out <= full_adder_1_bit:FA3.c_out
+
+
+|test_fulladder_4bit|full_adder_4_bit:FA_4BIT|full_adder_1_bit:FA0
+a => sum.IN0
+a => c_out.IN0
+b => sum.IN1
+b => c_out.IN1
+c_in => sum.IN1
+c_in => c_out.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_fulladder_4bit|full_adder_4_bit:FA_4BIT|full_adder_1_bit:FA1
+a => sum.IN0
+a => c_out.IN0
+b => sum.IN1
+b => c_out.IN1
+c_in => sum.IN1
+c_in => c_out.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_fulladder_4bit|full_adder_4_bit:FA_4BIT|full_adder_1_bit:FA2
+a => sum.IN0
+a => c_out.IN0
+b => sum.IN1
+b => c_out.IN1
+c_in => sum.IN1
+c_in => c_out.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|test_fulladder_4bit|full_adder_4_bit:FA_4BIT|full_adder_1_bit:FA3
+a => sum.IN0
+a => c_out.IN0
+b => sum.IN1
+b => c_out.IN1
+c_in => sum.IN1
+c_in => c_out.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= c_out.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,86 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3/simulation/modelsim
+vq3
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1697751321
+!i10b 1
+!s100 8nQzo45TbFG[RS9DI^U8g1
+IO]e6>Sl[P@4IhL[U`0W0L0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 q3_sv_unit
+S1
+R0
+Z5 w1697750792
+Z6 8C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3/q3.sv
+Z7 FC:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3/q3.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1697751321.000000
+Z10 !s107 C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3/q3.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3|C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3/q3.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3
+Z14 tCvgOpt 0
+vtestbench_3
+R1
+R2
+!i10b 1
+!s100 lhUfZ<:j6c`Eo4;eag50U1
+IXKa7Io:H?G[oAXc6W@dPH0
+R3
+!s105 q3_tb_sv_unit
+S1
+R0
+w1697751259
+8C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3/q3_tb.sv
+FC:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3/q3_tb.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3/q3_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3|C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2020/q3/q3_tb.sv|
+!i113 1
+R12
+R13
+R14
+vThunderbird
+R1
+R2
+!i10b 1
+!s100 3dMKGnf40QYC1Eh3o@[741
+Il9@X8QXPi]95]]?J[@ODT2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 30
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@thunderbird

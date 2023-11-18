@@ -1,0 +1,15 @@
+{C:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_4_bit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_4_bit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder_4_bit
+
+Top level modules:
+	full_adder_4_bit
+
+} {} {}} {C:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_1_bit.sv} {1 {vlog -work work -sv -stats=none {C:/Users/delacroixmax/Documents/ModelSim - Project/full_adder_1_bit.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder_1_bit
+
+Top level modules:
+	full_adder_1_bit
+
+} {} {}}

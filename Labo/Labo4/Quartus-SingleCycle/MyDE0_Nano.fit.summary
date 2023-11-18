@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Nov 10 09:58:40 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : MyDE0_Nano
+Top-level Entity Name : MyDE0_Nano
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 6,573 / 22,320 ( 29 % )
+    Total combinational functions : 3,776 / 22,320 ( 17 % )
+    Dedicated logic registers : 5,029 / 22,320 ( 23 % )
+Total registers : 5029
+Total pins : 154 / 154 ( 100 % )
+Total virtual pins : 0
+Total memory bits : 331,776 / 608,256 ( 55 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

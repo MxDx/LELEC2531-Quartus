@@ -1,0 +1,203 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vfull_adder_1_bit
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1696095843
+!i10b 1
+!s100 jheHS8h[:?Fhf7h9d83=o2
+IUQjI3KU>9b^QC2NhRz:al3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 Homework_1_sv_unit
+S1
+Z4 dC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1
+Z5 w1696095749
+Z6 8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/Homework_1.sv
+Z7 FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/Homework_1.sv
+L0 99
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1696095843.000000
+Z10 !s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/Homework_1.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/Homework_1.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+vfull_adder_4_bit
+R0
+R1
+!i10b 1
+!s100 m?L??hW?I[zKE]^mESLPa1
+I>o5ii3YX6FT0@PhnEcZGG0
+R2
+!s105 full_adder_4_bit_sv_unit
+S1
+R4
+Z14 w1696066528
+8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/full_adder_4_bit.sv
+FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/full_adder_4_bit.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/full_adder_4_bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/full_adder_4_bit.sv|
+!i113 1
+R12
+R13
+vfull_adder_8_bit
+R0
+R1
+!i10b 1
+!s100 W_;9H[8;TDc2<eliRX8gT3
+I89;cg7=X02<iDZ>N6Z:5U3
+R2
+Z15 !s105 full_adder_8bit_sv_unit
+S1
+R4
+w1696087379
+Z16 8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/full_adder_8bit.sv
+Z17 FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/full_adder_8bit.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+Z18 !s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/full_adder_8bit.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/full_adder_8bit.sv|
+!i113 1
+R12
+R13
+vfulladder_8bit
+R0
+!s110 1696068765
+!i10b 1
+!s100 Tofh7DL1GnYC;7KUknHK90
+IjLXf5Hb`3JU4Sic4E:kUZ0
+R2
+R15
+S1
+R4
+w1696068727
+R16
+R17
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1696068765.000000
+R18
+R19
+!i113 1
+R12
+R13
+vHomework_1
+R0
+R1
+!i10b 1
+!s100 Nob4gjLNVeHE9@EYnEbIP3
+I3LFT4>oUAg76b7d9zmP1P2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@homework_1
+vtest_full_adder_8bit
+R0
+!s110 1696068902
+!i10b 1
+!s100 km2YSf4LLa2Nb4@<G9L6Z2
+I:B9k3nnCmNQT`S2A^ViGO1
+R2
+Z20 !s105 test_fulladder_8bit_sv_unit
+S1
+R4
+w1696068877
+Z21 8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/test_fulladder_8bit.sv
+Z22 FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/test_fulladder_8bit.sv
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1696068902.000000
+Z23 !s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/test_fulladder_8bit.sv|
+Z24 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/test_fulladder_8bit.sv|
+!i113 1
+R12
+R13
+vtest_fulladder_4bit
+R0
+R1
+!i10b 1
+!s100 dSUUK3`:mHfECN`=TRG7=2
+Il`o<<iRgOQ08fP0JTFIel0
+R2
+!s105 test_fulladder_4bit_sv_unit
+S1
+R4
+R14
+8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/test_fulladder_4bit.sv
+FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/test_fulladder_4bit.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/test_fulladder_4bit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design-and-architecture-of-digital-electronic-systems/ModelSim - Project/Devoir1/test_fulladder_4bit.sv|
+!i113 1
+R12
+R13
+vtest_fulladder_8bit
+R0
+R1
+!i10b 1
+!s100 CAURXUzli9_]END4lcjG91
+I4]T[Fl_lhKaA0`S>NgJ321
+R2
+R20
+S1
+R4
+w1696095761
+R21
+R22
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R23
+R24
+!i113 1
+R12
+R13

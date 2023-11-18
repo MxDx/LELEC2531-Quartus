@@ -1,0 +1,462 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1700328272
+!i10b 1
+!s100 2>AbP>hOZI?HcI2fE9ieI1
+IBjIHfXmf6T=fSGZJHSQQN1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 MyARM_MultiCycle_sv_unit
+S1
+R0
+Z5 w1700328038
+Z6 8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyARM_MultiCycle.sv
+Z7 FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyARM_MultiCycle.sv
+L0 369
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1700328272.000000
+Z10 !s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyARM_MultiCycle.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyARM_MultiCycle.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle}
+Z14 tCvgOpt 0
+valu
+R1
+R2
+!i10b 1
+!s100 >ceA=fPlg;H@I:AmF>Z_e0
+I:fP7LMh<5C7jEGo[LAnc:0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 404
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+varm
+R1
+R2
+!i10b 1
+!s100 f9;=<^J6c2;TFhj5^:LJ@0
+IICK0P[ZXOXEGTcV?E0_:I1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 61
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcondcheck
+R1
+R2
+!i10b 1
+!s100 cA7SQ[Jz^JUK4HecZfV>61
+Iz6`ZgafN39?0z;lLcmN=f3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 247
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcondlogic
+R1
+R2
+!i10b 1
+!s100 Nj:Z:CAH_lXg5BlN^F9=D2
+IfBS4V]4<aDbj[0SnOQdb02
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 224
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcontroller
+R1
+R2
+!i10b 1
+!s100 ETA]4IGA82zz6QHio:Pmn1
+I`g2TNXG4G^k4kSMU1j=dT3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 83
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdatapath
+R1
+R2
+!i10b 1
+!s100 56elM2_f>LJ3R:Hb><bDR2
+IHC74nH<Un[A[7JSZKg53?3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 278
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdecode
+R1
+R2
+!i10b 1
+!s100 zEDXcX6b;0fb<V^3LdEVe3
+I^Rz;021HZ_lMnoDjz^IkH3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 111
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vextend
+R1
+R2
+!i10b 1
+!s100 ZcgiCL:>K=hEeidLJff093
+IJ>LFS:JXYnDk6JgKi7YWa2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 353
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopenr
+R1
+R2
+!i10b 1
+!s100 _:LOn5G>=BVH6mi[kncbI3
+Ik75d]MaKDFBi>>aH>VWG;0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 376
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopr
+R1
+R2
+!i10b 1
+!s100 _eR7>Z<<Ld:gAkkJ=OmNV1
+IigS=NZbYbMzWLkN?QmYXH1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 386
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmainfsm
+R1
+R2
+!i10b 1
+!s100 ?LRhgmUAF[gl[kPSZ=cD52
+ISH0<F<EMZCedbA8?D<>bJ0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 158
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmem
+R1
+R2
+!i10b 1
+!s100 =I9CiL29ebjG1cP>EB@6Z2
+I0PCZ?N3U_E_?;a]l6?Kdz1
+R3
+Z15 !s105 MyDE0_Nano_sv_unit
+S1
+R0
+Z16 w1700325741
+Z17 8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyDE0_Nano.sv
+Z18 FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyDE0_Nano.sv
+L0 89
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyDE0_Nano.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyDE0_Nano.sv|
+!i113 1
+R12
+R13
+R14
+vmux2
+R1
+R2
+!i10b 1
+!s100 CAB21]L1kaISioYL6ORoI1
+I2dhaFLlGfDelZa<U:LDQO3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 396
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmux3
+R1
+R2
+!i10b 1
+!s100 LGMTQJZ`HJi<PWID9Lj1A3
+IK;RFDeUg@ja=c6@FP]l831
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 324
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vMyDE0_Nano
+R1
+R2
+!i10b 1
+!s100 407HTMAM^a0P=Wg9]ED?Q0
+IT7=aYlM7`cdW3kzXLB?hc1
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+n@my@d@e0_@nano
+vMyTestbench
+R1
+R2
+!i10b 1
+!s100 EPKkVb5zYYL?clC5CzDZD0
+IZ:F@Wjg3EVf8NoI9XWe2:0
+R3
+!s105 MyTestbench_sv_unit
+S1
+R0
+R16
+8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv
+FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531---Design-and-architecture-of-digital-electronic-systems-master/Quartus/Homework/Homework_7/Quartus-MultiCycle/MyTestbench.sv|
+!i113 1
+R12
+R13
+R14
+n@my@testbench
+vregfile
+R1
+R2
+!i10b 1
+!s100 Ch>cS=kP]Ool^XeOnL3Yj2
+ImW_8VOIWM2RdhSe<jDgo03
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 333
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14

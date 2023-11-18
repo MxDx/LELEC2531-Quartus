@@ -1,0 +1,58 @@
+`timescale 1ms/1ms
+
+module testbench_3();
+
+    logic clk, reset, left, right, brake, alarm;
+    logic la, lb, lc, ra, rb, rc;
+
+    q3 q3_tsb(
+        .clk(clk),
+        .reset(reset),
+        .left(left),
+        .right(right),
+        .brake(brake),
+        .alarm(alarm),
+        .la(la),
+        .lb(lb),
+        .lc(lc),
+        .ra(ra),
+        .rb(rb),
+        .rc(rc)
+    );
+
+    always 
+        begin
+            clk = 0;
+            #500;
+            clk = 1;
+            #500;
+        end
+
+    initial begin
+        clk = 0;
+        reset = 1;
+        left = 0;
+        right = 0;
+        brake = 0;
+        alarm = 0;
+        #3000
+        reset = 0;
+        left = 1;
+        #4000
+        left = 0;
+        right = 1; 
+        #4000
+        reset = 1;
+        #2000
+        reset = 0;
+        brake = 1;
+        #3000
+        brake = 0;
+        #3000
+        alarm = 1;
+        #3000
+
+        $stop;       
+    end
+
+endmodule

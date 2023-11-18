@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "MyStatus",
+					"strict" : false
+				},
+				{
+					"name" : "MyOutput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MyOutput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MyOutput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MyOutput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MyOutput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MyOutput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MyOutput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MyOutput[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MyOperation[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MyOperation[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MyInput[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MyOperation[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MyInput[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MyConstantSelect[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MyInput[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MyConstantSelect[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MyInput[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MyInput[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MyInput[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MyInput[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MyInput[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

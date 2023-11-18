@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2/simulation/modelsim
+vq2_test
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1697793043
+!i10b 1
+!s100 d2X14KTTZT5kfDF@62kmY0
+I1L>?XXT=`51>IS8jJ?2hm0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 q2_test_sv_unit
+S1
+R0
+w1697792869
+8C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2/q2_test.sv
+FC:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2/q2_test.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1697793043.000000
+!s107 C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2/q2_test.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2|C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2/q2_test.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2
+Z8 tCvgOpt 0
+vtestbench_2
+R1
+R2
+!i10b 1
+!s100 8X1^e:cY=`AjZSn:;o<c41
+I0`gh]]k`BRm[KD=;W1cES1
+R3
+!s105 q2_test_tb_sv_unit
+S1
+R0
+w1697793026
+8C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2/q2_test_tb.sv
+FC:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2/q2_test_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2/q2_test_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2|C:/Users/maxim/Documents/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Interro/Interro1/2023/q2/q2_test_tb.sv|
+!i113 1
+R6
+R7
+R8

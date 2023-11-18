@@ -1,0 +1,182 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do MyDE0_Nano_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle {C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MySPI.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:43:43 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle" C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MySPI.sv 
+# -- Compiling module spi_slave
+# 
+# Top level modules:
+# 	spi_slave
+# End time: 23:43:43 on Nov 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle {C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:43:43 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle" C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv 
+# -- Compiling module MyDE0_Nano
+# 
+# Top level modules:
+# 	MyDE0_Nano
+# End time: 23:43:43 on Nov 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle {C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:43:43 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle" C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv 
+# -- Compiling module dmem
+# -- Compiling module imem
+# -- Compiling module arm
+# -- Compiling module controller
+# -- Compiling module decode
+# -- Compiling module condlogic
+# -- Compiling module condcheck
+# -- Compiling module datapath
+# -- Compiling module ldrb
+# -- Compiling module regfile
+# -- Compiling module extend
+# -- Compiling module adder
+# -- Compiling module flopenr
+# -- Compiling module flopr
+# -- Compiling module mux2
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	dmem
+# 	imem
+# 	arm
+# End time: 23:43:43 on Nov 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle {C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:43:43 on Nov 09,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle" C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv 
+# -- Compiling module MyTestbench
+# 
+# Top level modules:
+# 	MyTestbench
+# End time: 23:43:44 on Nov 09,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  dut
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" dut 
+# Start time: 23:43:44 on Nov 09,2023
+# ** Error: (vsim-3170) Could not find 'dut'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/cycloneive
+#             C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/simulation/modelsim/rtl_work
+#             C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./MyDE0_Nano_run_msim_rtl_verilog.do PAUSED at line 14
+vsim work.MyTestbench
+# vsim work.MyTestbench 
+# Start time: 23:43:44 on Nov 09,2023
+# Loading sv_std.std
+# Loading work.MyTestbench
+# Loading work.MyDE0_Nano
+# Loading work.spi_slave
+# Loading work.arm
+# Loading work.controller
+# Loading work.decode
+# Loading work.condlogic
+# Loading work.flopenr
+# Loading work.condcheck
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.adder
+# Loading work.regfile
+# Loading work.extend
+# Loading work.ldrb
+# Loading work.alu
+# Loading work.imem
+# Loading work.dmem
+# ** Warning: (vsim-3017) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Too few port connections. Expected 32, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MyTestbench/dut File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'LED'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_DQM'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_ASDO'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_DATA0'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_DCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'EPCS_NCSO'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'G_SENSOR_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'G_SENSOR_INT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'I2C_SCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'I2C_SDAT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_SADDR'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'ADC_SDAT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'GPIO_2_IN'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'GPIO_0_PI_IN'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(16): [TFMPC] - Missing connection for port 'GPIO_1_IN'.
+do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /MyTestbench/dut/arm/clk
+# add wave -noupdate /MyTestbench/dut/arm/reset
+# add wave -noupdate -radix unsigned /MyTestbench/dut/arm/PC
+# add wave -noupdate -radix hexadecimal /MyTestbench/dut/arm/Instr
+# add wave -noupdate -radix decimal /MyTestbench/dut/arm/ALUResult
+# add wave -noupdate -radix unsigned /MyTestbench/dut/arm/WriteData
+# add wave -noupdate /MyTestbench/dut/arm/MemWrite
+# add wave -noupdate -radix unsigned /MyTestbench/dut/arm/ReadData
+# add wave -noupdate /MyTestbench/DataAdr
+# add wave -noupdate /MyTestbench/dut/arm/ALUFlags
+# add wave -noupdate /MyTestbench/dut/arm/c/cl/CondEx
+# add wave -noupdate -radix decimal -childformat {{{/MyTestbench/dut/arm/dp/rf/rf[14]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[13]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[12]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[11]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[10]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[9]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[8]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[7]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[6]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[5]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[4]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[3]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[2]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[1]} -radix decimal} {{/MyTestbench/dut/arm/dp/rf/rf[0]} -radix decimal}} -expand -subitemconfig {{/MyTestbench/dut/arm/dp/rf/rf[14]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[13]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[12]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[11]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[10]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[9]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[8]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[7]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[6]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[5]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[4]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[3]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[2]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[1]} {-radix decimal} {/MyTestbench/dut/arm/dp/rf/rf[0]} {-radix decimal}} /MyTestbench/dut/arm/dp/rf/rf
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {137 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 111
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {0 ps} {206 ps}
+run
+run
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv(47)
+#    Time: 155 ps  Iteration: 1  Instance: /MyTestbench
+# Break in Module MyTestbench at C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv line 47
+# End time: 00:07:01 on Nov 10,2023, Elapsed time: 0:23:17
+# Errors: 1, Warnings: 29

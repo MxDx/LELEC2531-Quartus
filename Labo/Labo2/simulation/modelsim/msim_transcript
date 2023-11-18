@@ -1,0 +1,74 @@
+# Reading C:/intelFPGA/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do my_sync_design_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/delacroixmax/Downloads/lab2 {C:/Users/delacroixmax/Downloads/lab2/my_sync_design.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:59:35 on Oct 02,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/delacroixmax/Downloads/lab2" C:/Users/delacroixmax/Downloads/lab2/my_sync_design.sv 
+# -- Compiling module my_sync_design
+# -- Compiling module even_or_odd
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	my_sync_design
+# End time: 14:59:35 on Oct 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/delacroixmax/Downloads/lab2 {C:/Users/delacroixmax/Downloads/lab2/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:59:35 on Oct 02,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/delacroixmax/Downloads/lab2" C:/Users/delacroixmax/Downloads/lab2/testbench.sv 
+# -- Compiling module my_wonderful_testbench
+# 
+# Top level modules:
+# 	my_wonderful_testbench
+# End time: 14:59:35 on Oct 02,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  my_wonderful_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" my_wonderful_testbench 
+# Start time: 14:59:35 on Oct 02,2023
+# Loading sv_std.std
+# Loading work.my_wonderful_testbench
+# Loading work.my_sync_design
+# Loading work.counter
+# Loading work.even_or_odd
+# 
+# do C:/Users/delacroixmax/Downloads/lab2/simulation/modelsim/wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /my_wonderful_testbench/clk
+# add wave -noupdate /my_wonderful_testbench/reset
+# add wave -noupdate -color Red -radix unsigned /my_wonderful_testbench/A
+# add wave -noupdate -color Red -radix unsigned /my_wonderful_testbench/B
+# add wave -noupdate -radix unsigned /my_wonderful_testbench/cnt
+# add wave -noupdate -color {Cornflower Blue} -radix unsigned /my_wonderful_testbench/sum
+# add wave -noupdate /my_wonderful_testbench/even
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {137707 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ps
+# update
+# WaveRestoreZoom {37226 ps} {194726 ps}
+run 600ns

@@ -1,0 +1,796 @@
+Analysis & Synthesis report for MyDE0_Nano
+Fri Nov 10 09:03:00 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Registers Removed During Synthesis
+  9. General Register Statistics
+ 10. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 11. Parameter Settings for User Entity Instance: arm:arm|controller:c|condlogic:cl|flopenr:flagreg1
+ 12. Parameter Settings for User Entity Instance: arm:arm|controller:c|condlogic:cl|flopenr:flagreg0
+ 13. Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:pcmux
+ 14. Parameter Settings for User Entity Instance: arm:arm|datapath:dp|flopr:pcreg
+ 15. Parameter Settings for User Entity Instance: arm:arm|datapath:dp|adder:pcadd1
+ 16. Parameter Settings for User Entity Instance: arm:arm|datapath:dp|adder:pcadd2
+ 17. Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:ra1mux
+ 18. Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:ra2mux
+ 19. Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:resmux
+ 20. Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:resmuxLRDB
+ 21. Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:srcbmux
+ 22. Port Connectivity Checks: "arm:arm|datapath:dp|mux2:ra1mux"
+ 23. Port Connectivity Checks: "arm:arm|datapath:dp|adder:pcadd2"
+ 24. Port Connectivity Checks: "arm:arm|datapath:dp|adder:pcadd1"
+ 25. Port Connectivity Checks: "spi_slave:spi_slave_instance"
+ 26. Post-Synthesis Netlist Statistics for Top Partition
+ 27. Elapsed Time Per Partition
+ 28. Analysis & Synthesis Messages
+ 29. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Nov 10 09:03:00 2023       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                      ; MyDE0_Nano                                  ;
+; Top-level Entity Name              ; MyDE0_Nano                                  ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 5,171                                       ;
+;     Total combinational functions  ; 2,673                                       ;
+;     Dedicated logic registers      ; 2,633                                       ;
+; Total registers                    ; 2633                                        ;
+; Total pins                         ; 154                                         ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                              ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                           ; Setting            ; Default Value      ;
++------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                           ; EP4CE22F17C6       ;                    ;
+; Top-level entity name                                            ; MyDE0_Nano         ; MyDE0_Nano         ;
+; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                            ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                      ; Off                ; Off                ;
+; Restructure Multiplexers                                         ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                              ; Off                ; Off                ;
+; Preserve fewer node names                                        ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                    ; Enable             ; Enable             ;
+; Verilog Version                                                  ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                     ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                         ; Auto               ; Auto               ;
+; Safe State Machine                                               ; Off                ; Off                ;
+; Extract Verilog State Machines                                   ; On                 ; On                 ;
+; Extract VHDL State Machines                                      ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                       ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                   ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                          ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                        ; On                 ; On                 ;
+; Parallel Synthesis                                               ; On                 ; On                 ;
+; DSP Block Balancing                                              ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                               ; On                 ; On                 ;
+; Power-Up Don't Care                                              ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                     ; Off                ; Off                ;
+; Remove Duplicate Registers                                       ; On                 ; On                 ;
+; Ignore CARRY Buffers                                             ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                           ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                            ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                        ; Off                ; Off                ;
+; Ignore LCELL Buffers                                             ; Off                ; Off                ;
+; Ignore SOFT Buffers                                              ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                   ; Off                ; Off                ;
+; Optimization Technique                                           ; Balanced           ; Balanced           ;
+; Carry Chain Length                                               ; 70                 ; 70                 ;
+; Auto Carry Chains                                                ; On                 ; On                 ;
+; Auto Open-Drain Pins                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                            ; Off                ; Off                ;
+; Auto ROM Replacement                                             ; On                 ; On                 ;
+; Auto RAM Replacement                                             ; On                 ; On                 ;
+; Auto DSP Block Replacement                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                  ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                  ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                    ; On                 ; On                 ;
+; Strict RAM Replacement                                           ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                           ; Off                ; Off                ;
+; Auto RAM Block Balancing                                         ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                ; Off                ; Off                ;
+; Auto Resource Sharing                                            ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                               ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                    ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing              ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                ; Off                ; Off                ;
+; Timing-Driven Synthesis                                          ; On                 ; On                 ;
+; Report Parameter Settings                                        ; On                 ; On                 ;
+; Report Source Assignments                                        ; On                 ; On                 ;
+; Report Connectivity Checks                                       ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                               ; Off                ; Off                ;
+; Synchronization Register Chain Length                            ; 2                  ; 2                  ;
+; Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                  ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report         ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report               ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report        ; 100                ; 100                ;
+; Clock MUX Protection                                             ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                      ; Off                ; Off                ;
+; Block Design Naming                                              ; Auto               ; Auto               ;
+; SDC constraint protection                                        ; Off                ; Off                ;
+; Synthesis Effort                                                 ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal     ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                             ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                               ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                      ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                           ; On                 ; On                 ;
++------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.1%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                       ;
++----------------------------------+-----------------+---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                   ; File Name with Absolute Path                                                                                                                                    ; Library ;
++----------------------------------+-----------------+---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; MySPI.sv                         ; yes             ; User SystemVerilog HDL File                 ; C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MySPI.sv             ;         ;
+; MyDE0_Nano.sv                    ; yes             ; User SystemVerilog HDL File                 ; C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv        ;         ;
+; MyARM_SingleCycle.sv             ; yes             ; User SystemVerilog HDL File                 ; C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv ;         ;
+; myprogram.hex                    ; yes             ; Auto-Found Hexadecimal (Intel-Format) File  ; C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/myprogram.hex        ;         ;
++----------------------------------+-----------------+---------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Estimated Total logic elements              ; 5,171          ;
+;                                             ;                ;
+; Total combinational functions               ; 2673           ;
+; Logic element usage by number of LUT inputs ;                ;
+;     -- 4 input functions                    ; 2373           ;
+;     -- 3 input functions                    ; 192            ;
+;     -- <=2 input functions                  ; 108            ;
+;                                             ;                ;
+; Logic elements by mode                      ;                ;
+;     -- normal mode                          ; 2580           ;
+;     -- arithmetic mode                      ; 93             ;
+;                                             ;                ;
+; Total registers                             ; 2633           ;
+;     -- Dedicated logic registers            ; 2633           ;
+;     -- I/O registers                        ; 0              ;
+;                                             ;                ;
+; I/O pins                                    ; 154            ;
+;                                             ;                ;
+; Embedded Multiplier 9-bit elements          ; 0              ;
+;                                             ;                ;
+; Maximum fan-out node                        ; CLOCK_50~input ;
+; Maximum fan-out                             ; 2595           ;
+; Total fan-out                               ; 18506          ;
+; Average fan-out                             ; 3.24           ;
++---------------------------------------------+----------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                        ;
++-----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node        ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                            ; Entity Name ; Library Name ;
++-----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+-------------+--------------+
+; |MyDE0_Nano                       ; 2673 (35)           ; 2633 (32)                 ; 0           ; 0            ; 0       ; 0         ; 154  ; 0            ; |MyDE0_Nano                                                    ; MyDE0_Nano  ; work         ;
+;    |arm:arm|                      ; 1147 (0)            ; 515 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm                                            ; arm         ; work         ;
+;       |controller:c|              ; 19 (0)              ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|controller:c                               ; controller  ; work         ;
+;          |condlogic:cl|           ; 9 (6)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|controller:c|condlogic:cl                  ; condlogic   ; work         ;
+;             |condcheck:cc|        ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|controller:c|condlogic:cl|condcheck:cc     ; condcheck   ; work         ;
+;             |flopenr:flagreg0|    ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|controller:c|condlogic:cl|flopenr:flagreg0 ; flopenr     ; work         ;
+;             |flopenr:flagreg1|    ; 0 (0)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|controller:c|condlogic:cl|flopenr:flagreg1 ; flopenr     ; work         ;
+;          |decode:dec|             ; 10 (10)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|controller:c|decode:dec                    ; decode      ; work         ;
+;       |datapath:dp|               ; 1128 (0)            ; 512 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp                                ; datapath    ; work         ;
+;          |adder:pcadd1|           ; 30 (30)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp|adder:pcadd1                   ; adder       ; work         ;
+;          |adder:pcadd2|           ; 30 (30)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp|adder:pcadd2                   ; adder       ; work         ;
+;          |alu:alu|                ; 180 (180)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp|alu:alu                        ; alu         ; work         ;
+;          |flopr:pcreg|            ; 34 (34)             ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp|flopr:pcreg                    ; flopr       ; work         ;
+;          |mux2:ra1mux|            ; 4 (4)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp|mux2:ra1mux                    ; mux2        ; work         ;
+;          |mux2:ra2mux|            ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp|mux2:ra2mux                    ; mux2        ; work         ;
+;          |mux2:resmuxLRDB|        ; 48 (48)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp|mux2:resmuxLRDB                ; mux2        ; work         ;
+;          |mux2:resmux|            ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp|mux2:resmux                    ; mux2        ; work         ;
+;          |mux2:srcbmux|           ; 56 (56)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp|mux2:srcbmux                   ; mux2        ; work         ;
+;          |regfile:rf|             ; 736 (736)           ; 480 (480)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|arm:arm|datapath:dp|regfile:rf                     ; regfile     ; work         ;
+;    |dmem:dmem|                    ; 1425 (1425)         ; 2048 (2048)               ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|dmem:dmem                                          ; dmem        ; work         ;
+;    |imem:imem|                    ; 28 (28)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|imem:imem                                          ; imem        ; work         ;
+;    |spi_slave:spi_slave_instance| ; 38 (38)             ; 38 (38)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |MyDE0_Nano|spi_slave:spi_slave_instance                       ; spi_slave   ; work         ;
++-----------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                           ;
++---------------------------------------------------------+--------------------+
+; Register name                                           ; Reason for Removal ;
++---------------------------------------------------------+--------------------+
+; arm:arm|controller:c|condlogic:cl|flopenr:flagreg0|q[1] ; Lost fanout        ;
+; Total Number of Removed Registers = 1                   ;                    ;
++---------------------------------------------------------+--------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 2633  ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 30    ;
+; Number of registers using Asynchronous Clear ; 35    ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 2565  ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                     ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------+
+; 3:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |MyDE0_Nano|arm:arm|datapath:dp|mux2:srcbmux|y[22]   ;
+; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; No         ; |MyDE0_Nano|arm:arm|datapath:dp|mux2:srcbmux|y[1]    ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |MyDE0_Nano|arm:arm|datapath:dp|mux2:srcbmux|y[2]    ;
+; 8:1                ; 32 bits   ; 160 LEs       ; 64 LEs               ; 96 LEs                 ; No         ; |MyDE0_Nano|arm:arm|datapath:dp|alu:alu|Mux1         ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |MyDE0_Nano|arm:arm|datapath:dp|mux2:resmuxLRDB|y[1] ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 8 LEs                ; 0 LEs                  ; No         ; |MyDE0_Nano|arm:arm|datapath:dp|mux2:srcbmux|y[11]   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|controller:c|condlogic:cl|flopenr:flagreg1 ;
++----------------+-------+------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                   ;
++----------------+-------+------------------------------------------------------------------------+
+; WIDTH          ; 2     ; Signed Integer                                                         ;
++----------------+-------+------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|controller:c|condlogic:cl|flopenr:flagreg0 ;
++----------------+-------+------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                   ;
++----------------+-------+------------------------------------------------------------------------+
+; WIDTH          ; 2     ; Signed Integer                                                         ;
++----------------+-------+------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:pcmux ;
++----------------+-------+----------------------------------------------------+
+; Parameter Name ; Value ; Type                                               ;
++----------------+-------+----------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                     ;
++----------------+-------+----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|datapath:dp|flopr:pcreg ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|datapath:dp|adder:pcadd1 ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|datapath:dp|adder:pcadd2 ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:ra1mux ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; WIDTH          ; 4     ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:ra2mux ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; WIDTH          ; 4     ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:resmux ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:resmuxLRDB ;
++----------------+-------+---------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                    ;
++----------------+-------+---------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                          ;
++----------------+-------+---------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: arm:arm|datapath:dp|mux2:srcbmux ;
++----------------+-------+------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                 ;
++----------------+-------+------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                       ;
++----------------+-------+------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm|datapath:dp|mux2:ra1mux" ;
++------+-------+----------+-----------------------------------+
+; Port ; Type  ; Severity ; Details                           ;
++------+-------+----------+-----------------------------------+
+; d1   ; Input ; Info     ; Stuck at VCC                      ;
++------+-------+----------+-----------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm|datapath:dp|adder:pcadd2" ;
++----------+-------+----------+--------------------------------+
+; Port     ; Type  ; Severity ; Details                        ;
++----------+-------+----------+--------------------------------+
+; b[31..3] ; Input ; Info     ; Stuck at GND                   ;
+; b[1..0]  ; Input ; Info     ; Stuck at GND                   ;
+; b[2]     ; Input ; Info     ; Stuck at VCC                   ;
++----------+-------+----------+--------------------------------+
+
+
++--------------------------------------------------------------+
+; Port Connectivity Checks: "arm:arm|datapath:dp|adder:pcadd1" ;
++----------+-------+----------+--------------------------------+
+; Port     ; Type  ; Severity ; Details                        ;
++----------+-------+----------+--------------------------------+
+; b[31..3] ; Input ; Info     ; Stuck at GND                   ;
+; b[1..0]  ; Input ; Info     ; Stuck at GND                   ;
+; b[2]     ; Input ; Info     ; Stuck at VCC                   ;
++----------+-------+----------+--------------------------------+
+
+
++----------------------------------------------------------+
+; Port Connectivity Checks: "spi_slave:spi_slave_instance" ;
++-------+-------+----------+-------------------------------+
+; Port  ; Type  ; Severity ; Details                       ;
++-------+-------+----------+-------------------------------+
+; reset ; Input ; Info     ; Explicitly unconnected        ;
++-------+-------+----------+-------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 154                         ;
+; cycloneiii_ff         ; 2633                        ;
+;     CLR SLD           ; 30                          ;
+;     ENA               ; 2560                        ;
+;     ENA CLR           ; 5                           ;
+;     plain             ; 38                          ;
+; cycloneiii_io_obuf    ; 98                          ;
+; cycloneiii_lcell_comb ; 2674                        ;
+;     arith             ; 93                          ;
+;         2 data inputs ; 60                          ;
+;         3 data inputs ; 33                          ;
+;     normal            ; 2581                        ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 4                           ;
+;         2 data inputs ; 44                          ;
+;         3 data inputs ; 159                         ;
+;         4 data inputs ; 2373                        ;
+;                       ;                             ;
+; Max LUT depth         ; 22.50                       ;
+; Average LUT depth     ; 13.30                       ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:11     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Fri Nov 10 09:02:14 2023
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MyDE0_Nano -c MyDE0_Nano
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file mytestbench.sv
+    Info (12023): Found entity 1: MyTestbench File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyTestbench.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file myspi.sv
+    Info (12023): Found entity 1: spi_slave File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MySPI.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file myde0_nano.sv
+    Info (12023): Found entity 1: MyDE0_Nano File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 6
+Info (12021): Found 16 design units, including 16 entities, in source file myarm_singlecycle.sv
+    Info (12023): Found entity 1: dmem File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 76
+    Info (12023): Found entity 2: imem File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 88
+    Info (12023): Found entity 3: arm File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 99
+    Info (12023): Found entity 4: controller File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 125
+    Info (12023): Found entity 5: decode File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 148
+    Info (12023): Found entity 6: condlogic File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 211
+    Info (12023): Found entity 7: condcheck File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 235
+    Info (12023): Found entity 8: datapath File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 265
+    Info (12023): Found entity 9: ldrb File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 315
+    Info (12023): Found entity 10: regfile File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 330
+    Info (12023): Found entity 11: extend File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 350
+    Info (12023): Found entity 12: adder File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 366
+    Info (12023): Found entity 13: flopenr File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 373
+    Info (12023): Found entity 14: flopr File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 383
+    Info (12023): Found entity 15: mux2 File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 393
+    Info (12023): Found entity 16: alu File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 401
+Info (12127): Elaborating entity "MyDE0_Nano" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at MyDE0_Nano.sv(91): object "cs_led" assigned a value but never read File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 91
+Warning (10036): Verilog HDL or VHDL warning at MyDE0_Nano.sv(91): object "cs_spi_rd" assigned a value but never read File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 91
+Warning (10858): Verilog HDL warning at MyDE0_Nano.sv(92): object led_reg used but never assigned File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 92
+Info (10264): Verilog HDL Case Statement information at MyDE0_Nano.sv(110): all case item expressions in this case statement are onehot File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 110
+Warning (10030): Net "led_reg" at MyDE0_Nano.sv(92) has no driver or initial value, using a default initial value '0' File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 92
+Warning (10034): Output port "LED" at MyDE0_Nano.sv(12) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 12
+Warning (10034): Output port "DRAM_ADDR" at MyDE0_Nano.sv(21) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+Warning (10034): Output port "DRAM_BA" at MyDE0_Nano.sv(22) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 22
+Warning (10034): Output port "DRAM_DQM" at MyDE0_Nano.sv(28) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 28
+Warning (10034): Output port "DRAM_CAS_N" at MyDE0_Nano.sv(23) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 23
+Warning (10034): Output port "DRAM_CKE" at MyDE0_Nano.sv(24) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 24
+Warning (10034): Output port "DRAM_CLK" at MyDE0_Nano.sv(25) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 25
+Warning (10034): Output port "DRAM_CS_N" at MyDE0_Nano.sv(26) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 26
+Warning (10034): Output port "DRAM_RAS_N" at MyDE0_Nano.sv(29) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 29
+Warning (10034): Output port "DRAM_WE_N" at MyDE0_Nano.sv(30) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 30
+Warning (10034): Output port "EPCS_ASDO" at MyDE0_Nano.sv(33) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 33
+Warning (10034): Output port "EPCS_DCLK" at MyDE0_Nano.sv(35) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 35
+Warning (10034): Output port "EPCS_NCSO" at MyDE0_Nano.sv(36) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 36
+Warning (10034): Output port "G_SENSOR_CS_N" at MyDE0_Nano.sv(39) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 39
+Warning (10034): Output port "I2C_SCLK" at MyDE0_Nano.sv(41) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 41
+Warning (10034): Output port "ADC_CS_N" at MyDE0_Nano.sv(45) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 45
+Warning (10034): Output port "ADC_SADDR" at MyDE0_Nano.sv(46) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 46
+Warning (10034): Output port "ADC_SCLK" at MyDE0_Nano.sv(47) has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 47
+Info (12128): Elaborating entity "spi_slave" for hierarchy "spi_slave:spi_slave_instance" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 77
+Info (12128): Elaborating entity "arm" for hierarchy "arm:arm" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 98
+Info (12128): Elaborating entity "controller" for hierarchy "arm:arm|controller:c" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 116
+Info (12128): Elaborating entity "decode" for hierarchy "arm:arm|controller:c|decode:dec" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 142
+Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm|controller:c|condlogic:cl" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 145
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 223
+Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 228
+Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm|datapath:dp" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 122
+Warning (10036): Verilog HDL or VHDL warning at MyARM_SingleCycle.sv(283): object "recA" assigned a value but never read File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 283
+Warning (10036): Verilog HDL or VHDL warning at MyARM_SingleCycle.sv(283): object "recB" assigned a value but never read File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 283
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:pcmux" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 291
+Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|datapath:dp|flopr:pcreg" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 292
+Info (12128): Elaborating entity "adder" for hierarchy "arm:arm|datapath:dp|adder:pcadd1" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 293
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:ra1mux" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 297
+Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm|datapath:dp|regfile:rf" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 301
+Info (12128): Elaborating entity "extend" for hierarchy "arm:arm|datapath:dp|extend:ext" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 303
+Info (12128): Elaborating entity "ldrb" for hierarchy "arm:arm|datapath:dp|ldrb:extLRDB" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 306
+Info (12128): Elaborating entity "alu" for hierarchy "arm:arm|datapath:dp|alu:alu" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 312
+Warning (10230): Verilog HDL assignment warning at MyARM_SingleCycle.sv(415): truncated value with size 33 to match size of target (32) File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 415
+Warning (10230): Verilog HDL assignment warning at MyARM_SingleCycle.sv(419): truncated value with size 33 to match size of target (32) File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 419
+Info (12128): Elaborating entity "imem" for hierarchy "imem:imem" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 99
+Warning (10850): Verilog HDL warning at MyARM_SingleCycle.sv(94): number of words (16) in memory file does not match the number of elements in the address range [0:63] File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 94
+Warning (10030): Net "RAM.data_a" at MyARM_SingleCycle.sv(91) has no driver or initial value, using a default initial value '0' File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 91
+Warning (10030): Net "RAM.waddr_a" at MyARM_SingleCycle.sv(91) has no driver or initial value, using a default initial value '0' File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 91
+Warning (10030): Net "RAM.we_a" at MyARM_SingleCycle.sv(91) has no driver or initial value, using a default initial value '0' File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 91
+Info (12128): Elaborating entity "dmem" for hierarchy "dmem:dmem" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 100
+Info (276014): Found 2 instances of uninferred RAM logic
+    Info (276007): RAM logic "arm:arm|datapath:dp|regfile:rf|rf" is uninferred due to asynchronous read logic File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 336
+    Info (276007): RAM logic "dmem:dmem|RAM" is uninferred due to asynchronous read logic File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyARM_SingleCycle.sv Line: 80
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/db/MyDE0_Nano.ram0_imem_37c714.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Warning (13034): The following nodes have both tri-state and non-tri-state drivers
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[0]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[1]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[2]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[3]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[4]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[5]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[6]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[7]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[8]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[9]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[10]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[11]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_2[12]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[0]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[1]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[2]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[3]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[4]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[5]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[6]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[7]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[8]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[9]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[10]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[11]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[12]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[13]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[14]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[15]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[16]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[17]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[18]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[19]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[20]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[21]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[22]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[23]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[24]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[25]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[26]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[27]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[28]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[29]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[30]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[31]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13035): Inserted always-enabled tri-state buffer between "GPIO_1[33]" and its non-tri-state driver. File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+Warning (13039): The following bidirectional pins have no drivers
+    Warning (13040): bidirectional pin "GPIO_0_PI[1]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[9]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[11]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[15]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "DRAM_DQ[0]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[1]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[2]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[3]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[4]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[5]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[6]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[7]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[8]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[9]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[10]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[11]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[12]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[13]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[14]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "DRAM_DQ[15]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 27
+    Warning (13040): bidirectional pin "I2C_SDAT" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 42
+    Warning (13040): bidirectional pin "GPIO_0_PI[0]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[2]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[3]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[4]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[5]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[6]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[7]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[8]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[10]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[12]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[14]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[16]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[17]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[18]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[19]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[20]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[21]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[22]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[23]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[24]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[25]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[26]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[27]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[28]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[29]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[30]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[31]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[32]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_0_PI[33]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 55
+    Warning (13040): bidirectional pin "GPIO_1[32]" has no driver File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+Warning (13009): TRI or OPNDRN buffers permanently enabled
+    Warning (13010): Node "GPIO_2[0]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[1]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[2]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[3]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[4]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[5]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[6]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[7]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[8]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[9]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[10]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[11]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_2[12]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 51
+    Warning (13010): Node "GPIO_1[0]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[1]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[2]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[3]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[4]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[5]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[6]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[7]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[8]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[9]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[10]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[11]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[12]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[13]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[14]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[15]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[16]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[17]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[18]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[19]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[20]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[21]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[22]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[23]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[24]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[25]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[26]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[27]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[28]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[29]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[30]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[31]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+    Warning (13010): Node "GPIO_1[33]~synth" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 59
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LED[0]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 12
+    Warning (13410): Pin "LED[1]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 12
+    Warning (13410): Pin "LED[2]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 12
+    Warning (13410): Pin "LED[3]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 12
+    Warning (13410): Pin "LED[4]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 12
+    Warning (13410): Pin "LED[5]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 12
+    Warning (13410): Pin "LED[6]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 12
+    Warning (13410): Pin "LED[7]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 12
+    Warning (13410): Pin "DRAM_ADDR[0]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[1]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[2]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[3]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[4]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[5]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[6]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[7]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[8]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[9]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[10]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[11]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_ADDR[12]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 21
+    Warning (13410): Pin "DRAM_BA[0]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 22
+    Warning (13410): Pin "DRAM_BA[1]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 22
+    Warning (13410): Pin "DRAM_CAS_N" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 23
+    Warning (13410): Pin "DRAM_CKE" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 24
+    Warning (13410): Pin "DRAM_CLK" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 25
+    Warning (13410): Pin "DRAM_CS_N" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 26
+    Warning (13410): Pin "DRAM_DQM[0]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 28
+    Warning (13410): Pin "DRAM_DQM[1]" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 28
+    Warning (13410): Pin "DRAM_RAS_N" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 29
+    Warning (13410): Pin "DRAM_WE_N" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 30
+    Warning (13410): Pin "EPCS_ASDO" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 33
+    Warning (13410): Pin "EPCS_DCLK" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 35
+    Warning (13410): Pin "EPCS_NCSO" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 36
+    Warning (13410): Pin "G_SENSOR_CS_N" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 39
+    Warning (13410): Pin "I2C_SCLK" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 41
+    Warning (13410): Pin "ADC_CS_N" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 45
+    Warning (13410): Pin "ADC_SADDR" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 46
+    Warning (13410): Pin "ADC_SCLK" is stuck at GND File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 47
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 1 registers lost all their fanouts during netlist optimizations.
+Info (144001): Generated suppressed messages file C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/output_files/MyDE0_Nano.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 16 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "KEY[0]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 15
+    Warning (15610): No output dependent on input pin "KEY[1]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 15
+    Warning (15610): No output dependent on input pin "SW[0]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[1]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[2]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 18
+    Warning (15610): No output dependent on input pin "SW[3]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 18
+    Warning (15610): No output dependent on input pin "EPCS_DATA0" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 34
+    Warning (15610): No output dependent on input pin "G_SENSOR_INT" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 40
+    Warning (15610): No output dependent on input pin "ADC_SDAT" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 48
+    Warning (15610): No output dependent on input pin "GPIO_2_IN[0]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 52
+    Warning (15610): No output dependent on input pin "GPIO_2_IN[1]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 52
+    Warning (15610): No output dependent on input pin "GPIO_2_IN[2]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 52
+    Warning (15610): No output dependent on input pin "GPIO_0_PI_IN[0]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 56
+    Warning (15610): No output dependent on input pin "GPIO_0_PI_IN[1]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 56
+    Warning (15610): No output dependent on input pin "GPIO_1_IN[0]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 61
+    Warning (15610): No output dependent on input pin "GPIO_1_IN[1]" File: C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/MyDE0_Nano.sv Line: 61
+Info (21057): Implemented 5416 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 17 input pins
+    Info (21059): Implemented 39 output pins
+    Info (21060): Implemented 98 bidirectional pins
+    Info (21061): Implemented 5262 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 235 warnings
+    Info: Peak virtual memory: 4783 megabytes
+    Info: Processing ended: Fri Nov 10 09:03:00 2023
+    Info: Elapsed time: 00:00:46
+    Info: Total CPU time (on all processors): 00:00:37
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/maxim/Documents/Master1/LELEC2531---Design-and-architecture-of-digital-electronic-systems/Homework/Homework_6/Quartus-SingleCycle/output_files/MyDE0_Nano.map.smsg.
+
+

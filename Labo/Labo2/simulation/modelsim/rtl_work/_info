@@ -1,0 +1,110 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/delacroixmax/Downloads/lab2/simulation/modelsim
+vcounter
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1696251575
+!i10b 1
+!s100 dNPQ52f6IU3gSNTQl]Jg@2
+IccFWVRza@]=b8d<<32fN41
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 my_sync_design_sv_unit
+S1
+R0
+Z5 w1696250256
+Z6 8C:/Users/delacroixmax/Downloads/lab2/my_sync_design.sv
+Z7 FC:/Users/delacroixmax/Downloads/lab2/my_sync_design.sv
+L0 115
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1696251575.000000
+Z10 !s107 C:/Users/delacroixmax/Downloads/lab2/my_sync_design.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/delacroixmax/Downloads/lab2|C:/Users/delacroixmax/Downloads/lab2/my_sync_design.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/delacroixmax/Downloads/lab2
+Z14 tCvgOpt 0
+veven_or_odd
+R1
+R2
+!i10b 1
+!s100 il8S59c_jH:LPccc@;Qa42
+IP456[lUn9UE7Z<k]oMUJ23
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 95
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmy_sync_design
+R1
+R2
+!i10b 1
+!s100 @@YI_oMT1;0oJSR1[f7BR1
+IA19L8X=cghm>_fQjHn<0P1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmy_wonderful_testbench
+R1
+R2
+!i10b 1
+!s100 F0gVO:kJ_gH65o]hWgn6Z3
+Il>POcoFi33?]kZ>;Uzzzo2
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1696249892
+8C:/Users/delacroixmax/Downloads/lab2/testbench.sv
+FC:/Users/delacroixmax/Downloads/lab2/testbench.sv
+L0 11
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/delacroixmax/Downloads/lab2/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/delacroixmax/Downloads/lab2|C:/Users/delacroixmax/Downloads/lab2/testbench.sv|
+!i113 1
+R12
+R13
+R14

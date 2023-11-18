@@ -1,0 +1,104 @@
+|q3_test
+clk => clk.IN2
+reset => reset.IN2
+left => left.IN1
+right => right.IN1
+brake => brake.IN2
+fog => fog.IN2
+alarm => alarm.IN2
+la << Thunderbird:TBleft.a
+lb << Thunderbird:TBleft.b
+lc << Thunderbird:TBleft.c
+ra << Thunderbird:TBright.a
+rb << Thunderbird:TBright.b
+rc << Thunderbird:TBright.c
+
+
+|q3_test|Thunderbird:TBleft
+clk => state[0].CLK
+clk => state[1].CLK
+clk => state[2].CLK
+clk => state[3].CLK
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+active => nextstate.OUTPUTSELECT
+active => nextstate.OUTPUTSELECT
+active => nextstate.OUTPUTSELECT
+active => nextstate.OUTPUTSELECT
+brake => always1.IN0
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.DATAA
+brake => nextstate.DATAA
+fog => nextstate.OUTPUTSELECT
+fog => nextstate.OUTPUTSELECT
+fog => nextstate.OUTPUTSELECT
+fog => nextstate.OUTPUTSELECT
+fog => nextstate.OUTPUTSELECT
+fog => nextstate.DATAA
+fog => nextstate.DATAA
+fog => Mux1.IN15
+fog => nextstate.DATAA
+alarm => always1.IN1
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= state[1].DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|q3_test|Thunderbird:TBright
+clk => state[0].CLK
+clk => state[1].CLK
+clk => state[2].CLK
+clk => state[3].CLK
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+active => nextstate.OUTPUTSELECT
+active => nextstate.OUTPUTSELECT
+active => nextstate.OUTPUTSELECT
+active => nextstate.OUTPUTSELECT
+brake => always1.IN0
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.OUTPUTSELECT
+brake => nextstate.DATAA
+brake => nextstate.DATAA
+fog => nextstate.OUTPUTSELECT
+fog => nextstate.OUTPUTSELECT
+fog => nextstate.OUTPUTSELECT
+fog => nextstate.OUTPUTSELECT
+fog => nextstate.OUTPUTSELECT
+fog => nextstate.DATAA
+fog => nextstate.DATAA
+fog => Mux1.IN15
+fog => nextstate.DATAA
+alarm => always1.IN1
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+alarm => nextstate.OUTPUTSELECT
+a <= a.DB_MAX_OUTPUT_PORT_TYPE
+b <= state[1].DB_MAX_OUTPUT_PORT_TYPE
+c <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+
