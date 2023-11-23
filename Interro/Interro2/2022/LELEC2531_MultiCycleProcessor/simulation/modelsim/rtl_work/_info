@@ -1,0 +1,462 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1700761436
+!i10b 1
+!s100 48z=`b0H]`PhfEi03?^aZ0
+I68i6GS3[LQd9VY_``Y]423
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 MyARM_MultiCycle_sv_unit
+S1
+R0
+Z5 w1700761187
+Z6 8C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv
+Z7 FC:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv
+L0 382
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1700761436.000000
+Z10 !s107 C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor|C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor
+Z14 tCvgOpt 0
+valu
+R1
+R2
+!i10b 1
+!s100 OaHZa`UcCnO:?ORT?KZ>E0
+IB?gUFGMH@ooD[430f[L@Y0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 417
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+varm
+R1
+R2
+!i10b 1
+!s100 cHd46T]CQNQTW5IfL@]U93
+Ia@0YbHbEKnAFlA<[V?XbD2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 61
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcondcheck
+R1
+R2
+!i10b 1
+!s100 UMZ51LYb:ji_^F6[f^n2P3
+I?0WzkDB8KRBzHI7mKkG6k1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 257
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcondlogic
+R1
+R2
+!i10b 1
+!s100 HSTXDg^1d@VZ@4YU;Q@0<2
+IYFI1fYPmBzj<:PP2?]7IA2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 234
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcontroller
+R1
+R2
+!i10b 1
+!s100 bPi<Pb^a0Y`g3;UZGObh82
+IJIo_Ff7Ie;V2Q4EYATZF:0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 85
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdatapath
+R1
+R2
+!i10b 1
+!s100 [W92ZEkjNH8R2A[bPW@Lb1
+I[[8obD3V34zLT7M`=Xb9X1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 288
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdecode
+R1
+R2
+!i10b 1
+!s100 lNF_S`IcK2^VS<aIkSI^92
+I92Me=[j?5YIejm=SYeIJ93
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 113
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vextend
+R1
+R2
+!i10b 1
+!s100 TJJVR5@81n0>3a<dHZ3Za3
+IBa;6B6?[8k`ggEkU7mX=20
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 366
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopenr
+R1
+R2
+!i10b 1
+!s100 bfmfJIgXY9klXajJ;>7Sb0
+IA71l5[c>RN6o<gYd]l^261
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 389
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopr
+R1
+R2
+!i10b 1
+!s100 MnomD24FXIY:SC<1VFL@S0
+I@74zjh>Eeo:Az@oKEiLCO0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 399
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmainfsm
+R1
+R2
+!i10b 1
+!s100 h0gKPn[L=OV?8M^2]Y8Hd3
+IDOR9a3V`Ze00FE?obh>Ll1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 161
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmem
+R1
+Z15 !s110 1700761437
+!i10b 1
+!s100 =I9CiL29ebjG1cP>EB@6Z2
+I==8>B[aS9o1]lCZ@MKMZ>0
+R3
+Z16 !s105 MyDE0_Nano_sv_unit
+S1
+R0
+Z17 w1700756116
+Z18 8C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.sv
+Z19 FC:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.sv
+L0 89
+R8
+r1
+!s85 0
+31
+Z20 !s108 1700761437.000000
+Z21 !s107 C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor|C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.sv|
+!i113 1
+R12
+R13
+R14
+vmux2
+R1
+R2
+!i10b 1
+!s100 bzFhQbjKae=KRRRX]JPaB2
+I<=iVK0@Z5g1FI<V_?2]=82
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 409
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmux3
+R1
+R2
+!i10b 1
+!s100 >kDYm;IZAKh>QOUjjWVRo1
+IchV`bLfkcLAIge^M49IYk0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 337
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vMyDE0_Nano
+R1
+R15
+!i10b 1
+!s100 407HTMAM^a0P=Wg9]ED?Q0
+I;PEbc4TiFFTcIAaF=Qgm60
+R3
+R16
+S1
+R0
+R17
+R18
+R19
+L0 6
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R12
+R13
+R14
+n@my@d@e0_@nano
+vMyTestbench
+R1
+R15
+!i10b 1
+!s100 ;hh1Qgo6Nec2i9e9_XWX_3
+IIGe3a9[E=ZJdDW<lF@LkO2
+R3
+!s105 MyTestbench_sv_unit
+S1
+R0
+R17
+8C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyTestbench.sv
+FC:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyTestbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyTestbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor|C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyTestbench.sv|
+!i113 1
+R12
+R13
+R14
+n@my@testbench
+vregfile
+R1
+R2
+!i10b 1
+!s100 Q02R?S>A<ag8L6b:BmEHf0
+IHjazE0S8iBYNAz6SYc3ZQ0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 346
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14

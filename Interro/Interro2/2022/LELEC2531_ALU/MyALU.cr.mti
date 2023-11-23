@@ -1,0 +1,15 @@
+//Mac/Home/Desktop/LELEC2531_ALU2020/tb.sv {1 {vlog -work work -sv -stats=none //Mac/Home/Desktop/LELEC2531_ALU2020/tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module myTests
+
+Top level modules:
+	myTests
+
+} {} {}} //Mac/Home/Desktop/LELEC2531_ALU2020/MyALU.sv {1 {vlog -work work -sv -stats=none //Mac/Home/Desktop/LELEC2531_ALU2020/MyALU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MyALU
+
+Top level modules:
+	MyALU
+
+} {} {}}

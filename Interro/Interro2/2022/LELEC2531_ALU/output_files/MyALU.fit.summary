@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Nov 23 17:46:52 2023
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : MyALU
+Top-level Entity Name : MyALU
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 177 / 22,320 ( < 1 % )
+    Total combinational functions : 177 / 22,320 ( < 1 % )
+    Dedicated logic registers : 0 / 22,320 ( 0 % )
+Total registers : 0
+Total pins : 103 / 154 ( 67 % )
+Total virtual pins : 0
+Total memory bits : 0 / 608,256 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
