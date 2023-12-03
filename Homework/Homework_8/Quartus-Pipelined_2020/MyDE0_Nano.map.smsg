@@ -1,0 +1,3 @@
+Warning (10273): Verilog HDL warning at MyARM_Pipelined.sv(73): extended using "x" or "z" File: Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 73
+Warning (10273): Verilog HDL warning at MyARM_Pipelined.sv(86): extended using "x" or "z" File: Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 86
+Warning (10273): Verilog HDL warning at MyARM_Pipelined.sv(312): extended using "x" or "z" File: Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 312
