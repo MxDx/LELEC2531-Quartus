@@ -1,0 +1,46 @@
+{C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MySPI.sv} {1 {vlog -work work -sv -stats=none {C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MySPI.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module spi_slave
+
+Top level modules:
+	spi_slave
+
+} {} {}} {C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyDE0_Nano.sv} {1 {vlog -work work -sv -stats=none {C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyDE0_Nano.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MyDE0_Nano
+-- Compiling module dmem
+-- Compiling module imem
+
+Top level modules:
+	MyDE0_Nano
+
+} {} {}} {C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyTestbench.sv} {1 {vlog -work work -sv -stats=none {C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyTestbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MyTestbench
+
+Top level modules:
+	MyTestbench
+
+} {} {}} {C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyARM_Pipelined.sv} {1 {vlog -work work -sv -stats=none {C:\Users\maxim\My Drive\UCL\MASTER\M1\Q1\LELEC2531 - Design and architecture of digital electronic systems\Quartus\Homework\Homework_8\Quartus-Pipelined_2020\MyARM_Pipelined.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module arm
+-- Compiling module controller
+-- Compiling module conditional
+-- Compiling module datapath
+-- Compiling module hazard
+-- Compiling module regfile
+-- Compiling module extend
+-- Compiling module alu
+-- Compiling module adder
+-- Compiling module flopenr
+-- Compiling module flopr
+-- Compiling module flopenrc
+-- Compiling module floprc
+-- Compiling module mux2
+-- Compiling module mux3
+-- Compiling module eqcmp
+
+Top level modules:
+	arm
+
+} {} {}}

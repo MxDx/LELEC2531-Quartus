@@ -1,0 +1,516 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/18.1
+vadder
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1701634419
+!i10b 1
+!s100 XojP50dNzXRYQ65d0ghoS3
+I5b@X:SJ99C@_HidVARh<U3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 MyARM_Pipelined_sv_unit
+S1
+Z4 dC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020
+Z5 w1701634333
+Z6 8C:\Users\maxim\My Drive\UCL\MASTER\M1\Q1\LELEC2531 - Design and architecture of digital electronic systems\Quartus\Homework\Homework_8\Quartus-Pipelined_2020\MyARM_Pipelined.sv
+Z7 FC:\Users\maxim\My Drive\UCL\MASTER\M1\Q1\LELEC2531 - Design and architecture of digital electronic systems\Quartus\Homework\Homework_8\Quartus-Pipelined_2020\MyARM_Pipelined.sv
+L0 351
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1701634419.000000
+Z10 !s107 C:\Users\maxim\My Drive\UCL\MASTER\M1\Q1\LELEC2531 - Design and architecture of digital electronic systems\Quartus\Homework\Homework_8\Quartus-Pipelined_2020\MyARM_Pipelined.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\maxim\My Drive\UCL\MASTER\M1\Q1\LELEC2531 - Design and architecture of digital electronic systems\Quartus\Homework\Homework_8\Quartus-Pipelined_2020\MyARM_Pipelined.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+valu
+R0
+R1
+!i10b 1
+!s100 I0Wj4D5>@a^ac5^mU8BTN3
+IEN@6MT6OAbN8i]F@3niT:2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 323
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+varm
+R0
+R1
+!i10b 1
+!s100 8]?K:4>Y:QdaG0b2QcSa<2
+IH88g<=H87zPAP16g<z[_C0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vconditional
+R0
+R1
+!i10b 1
+!s100 bh0<nY5]3cfYcT__jaj[N1
+IQn<V_Ri?@eoON:FJ<@m`02
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 134
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vcontroller
+R0
+R1
+!i10b 1
+!s100 ;`O?3PS8TMc0KFOicn?;Z2
+IF=PMiF4X[_LXCIRL>5gAF3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 39
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vdatapath
+R0
+R1
+!i10b 1
+!s100 PmgV^90JZUGe<AdeM@X620
+IND>Z;^A_XA@4Iz9o:F4;k0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 171
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vdmem
+R0
+R1
+!i10b 1
+!s100 PK4W[M9BU7B4@YzWNJfZ=2
+IO4XB2l;egJEDQjR;@C?b_2
+R2
+Z14 !s105 MyDE0_Nano_sv_unit
+S1
+R4
+Z15 w1701622192
+Z16 8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyDE0_Nano.sv
+Z17 FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyDE0_Nano.sv
+L0 142
+R8
+r1
+!s85 0
+31
+R9
+Z18 !s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyDE0_Nano.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyDE0_Nano.sv|
+!i113 1
+R12
+R13
+veqcmp
+R0
+R1
+!i10b 1
+!s100 UikfHFQYTG1jHnL2?_bAP3
+IKD:<R[584NlXNYJ0Sd]J<0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 419
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vextend
+R0
+R1
+!i10b 1
+!s100 Z13AOoHX3HAIMIA9gOTD>2
+I_VoTTz]MZIaIQ7[jjDY^P2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 309
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vflopenr
+R0
+R1
+!i10b 1
+!s100 RcD=M0=K^G_`S]>n;2MO72
+IS`@2M^OD?@o;BWLleKiL]0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 357
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vflopenrc
+R0
+R1
+!i10b 1
+!s100 MkBdaAK2J@WC^HhL@i_n[3
+IUATN;dJOPP1CGM7VHHA6]2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 379
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vflopr
+R0
+R1
+!i10b 1
+!s100 59;kWZWTUEk`6a4;]JUdD3
+I5AD`TTjW5i3e[^@RU:ZJA1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 368
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vfloprc
+R0
+R1
+!i10b 1
+!s100 R3I;hMJk:UN@mZSZ@dEa@3
+INLNa[^]dz>E;3HB@UoBnY0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 392
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vhazard
+R0
+R1
+!i10b 1
+!s100 n<Z955J=Ta9P9biWe;<HS2
+IU^^_M``LQnT1OjY5Qm7HF0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 242
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vimem
+R0
+R1
+!i10b 1
+!s100 ziJa5EVIKg_1h8C^`84I[3
+IaOZzCZ8W6i6boK5WUBScH0
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 154
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 1
+R12
+R13
+vmux2
+R0
+R1
+!i10b 1
+!s100 ^<RZfng7cFK_^6[2KY1P>1
+I3KYcj2VHh<c:HRU^NRXF02
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 405
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vmux3
+R0
+R1
+!i10b 1
+!s100 :NJANRo?Vk7KRzN7a00=P2
+I191g7_hJ4Ge`3<>hNEAWg2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 412
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vMyDE0_Nano
+R0
+R1
+!i10b 1
+!s100 nk`fiGF3c4<W@6;d@M=NX1
+IjA26@C5G9`O]Ng4@1gEU=3
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 1
+R12
+R13
+n@my@d@e0_@nano
+vMyTestbench
+R0
+R1
+!i10b 1
+!s100 oD`oYg9YaSj9=S[>LSDmN2
+IX7O>X`NG<;hZUh;fKgoJ`1
+R2
+!s105 MyTestbench_sv_unit
+S1
+R4
+Z20 w1701622193
+8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyTestbench.sv
+FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyTestbench.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyTestbench.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MyTestbench.sv|
+!i113 1
+R12
+R13
+n@my@testbench
+vregfile
+R0
+R1
+!i10b 1
+!s100 CX7b>=A[0k[R]4mP0>Dfb2
+IS9;`NJhH]LIO13P^mHTHl1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 287
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vspi_slave
+R0
+R1
+!i10b 1
+!s100 LD07[>W@GY2ZRJDYAG=mD2
+If]VlEZe[PjK@B7d7amAR=1
+R2
+!s105 MySPI_sv_unit
+S1
+R4
+R20
+8C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MySPI.sv
+FC:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MySPI.sv
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MySPI.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/maxim/My Drive/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/Quartus/Homework/Homework_8/Quartus-Pipelined_2020/MySPI.sv|
+!i113 1
+R12
+R13

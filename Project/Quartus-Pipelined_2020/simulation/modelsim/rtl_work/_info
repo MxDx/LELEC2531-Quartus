@@ -1,0 +1,537 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dZ:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1600114685
+!i10b 1
+!s100 g;YW;j?><BRW4b]UmS`;o2
+IFBlA_L:hg[kk6WC<=imPL2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 MyARM_Pipelined_sv_unit
+S1
+R0
+Z5 w1600114226
+Z6 8Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyARM_Pipelined.sv
+Z7 FZ:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyARM_Pipelined.sv
+L0 345
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1600114685.000000
+Z10 !s107 Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyARM_Pipelined.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020|Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyARM_Pipelined.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020}
+Z14 tCvgOpt 0
+valu
+R1
+R2
+!i10b 1
+!s100 WGSMQI8]<S9=EDB5WN[l60
+I1Sfk5`CHQQ1Zi7FG2LMf62
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 317
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+varm
+R1
+R2
+!i10b 1
+!s100 8]?K:4>Y:QdaG0b2QcSa<2
+IPEFKjBmgWk;z:Sm[dzVDo3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vconditional
+R1
+R2
+!i10b 1
+!s100 bh0<nY5]3cfYcT__jaj[N1
+IgL6ic9fHhQRRcnF?<V;am0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 134
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcontroller
+R1
+R2
+!i10b 1
+!s100 ;`O?3PS8TMc0KFOicn?;Z2
+IjzHk[2Y>A`K29NR9^lnJW1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 39
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdatapath
+R1
+R2
+!i10b 1
+!s100 PmgV^90JZUGe<AdeM@X620
+IIWRZFPJ?3]i63oXmO?U:i1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 171
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdmem
+R1
+Z15 !s110 1600114686
+!i10b 1
+!s100 PK4W[M9BU7B4@YzWNJfZ=2
+IWfD1>S8^ohlS>mgHe_anA0
+R3
+Z16 !s105 MyDE0_Nano_sv_unit
+S1
+R0
+Z17 w1480527592
+Z18 8Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyDE0_Nano.sv
+Z19 FZ:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyDE0_Nano.sv
+L0 142
+R8
+r1
+!s85 0
+31
+Z20 !s108 1600114686.000000
+Z21 !s107 Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyDE0_Nano.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020|Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyDE0_Nano.sv|
+!i113 1
+R12
+R13
+R14
+veqcmp
+R1
+R2
+!i10b 1
+!s100 QmS9chjPBgaHC^nHzP:YI2
+IO_J<Pg6?Xg`V7oAmUPb3T1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 413
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vextend
+R1
+R2
+!i10b 1
+!s100 `i7>k[D:3>90NZ;PSTYj]2
+I>UX=E3Mg7KHFF:GWL3mHU0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 303
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopenr
+R1
+R2
+!i10b 1
+!s100 gAJM=35Tez?ZM?mHE?TnI1
+IUEJ>AJonTG>>PeT3W6o==3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 351
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopenrc
+R1
+R2
+!i10b 1
+!s100 1hk9<=OR[7l6dO_MZRFUf0
+I15;Za:2O^]CEIdHgNldkG3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 373
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopr
+R1
+R2
+!i10b 1
+!s100 oNFf@B4@P<Qb>4FK2^2aA3
+Ie^FE<a;ejN5<^>kEihHl61
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 362
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vfloprc
+R1
+R2
+!i10b 1
+!s100 GzSzK:d`O7H_XT@=1Wk<A2
+ImDj^QAIFJ08f22QkUe:i43
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 386
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vhazard
+R1
+R2
+!i10b 1
+!s100 fLBIP7J;mU3DYKAeDkAgg0
+I`fCT=>B`abcEW0i5F>9=J3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 242
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vimem
+R1
+R15
+!i10b 1
+!s100 ziJa5EVIKg_1h8C^`84I[3
+IfH=NWS4Uj5=?:Y`G@XD5o2
+R3
+R16
+S1
+R0
+R17
+R18
+R19
+L0 154
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R12
+R13
+R14
+vmux2
+R1
+R2
+!i10b 1
+!s100 jGF9_gjD7i>V]2I6KRnXN0
+I4IM<jY<<@Ad]f@E]ib_>`1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 399
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmux3
+R1
+R2
+!i10b 1
+!s100 N?oXzL3m18eB]<l[::gDR3
+IWje6iPh^kUB]>48F@_V_Y0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 406
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vMyDE0_Nano
+R1
+R15
+!i10b 1
+!s100 nk`fiGF3c4<W@6;d@M=NX1
+IJfclHaz08Yh=:DQ_H::D53
+R3
+R16
+S1
+R0
+R17
+R18
+R19
+L0 6
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!i113 1
+R12
+R13
+R14
+n@my@d@e0_@nano
+vMyTestbench
+R1
+R15
+!i10b 1
+!s100 oD`oYg9YaSj9=S[>LSDmN2
+IVmFDW4GlUjUTak180^KfM1
+R3
+!s105 MyTestbench_sv_unit
+S1
+R0
+w1480175510
+8Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyTestbench.sv
+FZ:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyTestbench.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R20
+!s107 Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyTestbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020|Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MyTestbench.sv|
+!i113 1
+R12
+R13
+R14
+n@my@testbench
+vregfile
+R1
+R2
+!i10b 1
+!s100 zQMIzm<M1b1BhA3>nW8mZ2
+IgCC@8871]1c1d_6mhPhzd1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 281
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vspi_slave
+R1
+R15
+!i10b 1
+!s100 LD07[>W@GY2ZRJDYAG=mD2
+IdLZ?=AMnPIIOJHmNRYoS03
+R3
+!s105 MySPI_sv_unit
+S1
+R0
+w1480534133
+8Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MySPI.sv
+FZ:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MySPI.sv
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+!s107 Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MySPI.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020|Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/MySPI.sv|
+!i113 1
+R12
+R13
+R14
