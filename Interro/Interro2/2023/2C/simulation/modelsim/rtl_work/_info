@@ -1,0 +1,462 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1700823083
+!i10b 1
+!s100 c32o=?_z3kAMKHW:OB^R51
+IJbPAUH<d4E5C?T1F:7IQ?2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 MyARM_MultiCycle_sv_unit
+S1
+R0
+Z5 w1700822325
+Z6 8C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyARM_MultiCycle.sv
+Z7 FC:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyARM_MultiCycle.sv
+L0 381
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1700823083.000000
+Z10 !s107 C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyARM_MultiCycle.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C|C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyARM_MultiCycle.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C
+Z14 tCvgOpt 0
+valu
+R1
+R2
+!i10b 1
+!s100 c98cYKj?k9Md23nzJhm8^1
+In4`nH9H_3B=]6TLN0CoUP3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 416
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+varm
+R1
+R2
+!i10b 1
+!s100 cHd46T]CQNQTW5IfL@]U93
+ISg3h@Hffj4mTN52^WTEOG0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 61
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcondcheck
+R1
+R2
+!i10b 1
+!s100 b9@N=eicHj3`i@a;eJj6m3
+I^bnG8jb6Nh0nN1:UcKE@A3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 256
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcondlogic
+R1
+R2
+!i10b 1
+!s100 PfG:?nP=K5DUX4Z@U0BDA0
+IkzBeTjWVzRPj;DFB[on4f1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 233
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vcontroller
+R1
+R2
+!i10b 1
+!s100 bPi<Pb^a0Y`g3;UZGObh82
+IZ4U3;LSPQF08A;[c04F1E1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 85
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdatapath
+R1
+R2
+!i10b 1
+!s100 ehaCPI0IhG]V8HPMbkkLI1
+IoW?54KH@FM3bQOoTnEdef1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 287
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vdecode
+R1
+R2
+!i10b 1
+!s100 8hcXReeim`FY;z48_GS7]2
+I8i^k;31f255`oUP[8jzWj3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 113
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vextend
+R1
+R2
+!i10b 1
+!s100 hH;6P0B_4lYfeR5;6Q?hE2
+IaiIXj;WkX9TS_0I6j=5M:0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 365
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopenr
+R1
+R2
+!i10b 1
+!s100 4z]m5iYTd;00HfK401I;l2
+IT21WP6?HlKA_]JdXWZXJa2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 388
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vflopr
+R1
+R2
+!i10b 1
+!s100 8NUY2@K5<;=47Lo>:>mQ;3
+IgcfA;3NMSm_kk[gHI[Hj]1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 398
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmainfsm
+R1
+R2
+!i10b 1
+!s100 @LX86_FW4Y3W[dbn`llgk1
+IJ2b`ekSBlk675T8GRbYDB1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 161
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmem
+R1
+R2
+!i10b 1
+!s100 Cb4?O8R2iKQ1NaRjI5cnb1
+IaVckA>o23g2ZfOf4[@V4T3
+R3
+Z15 !s105 MyDE0_Nano_sv_unit
+S1
+R0
+Z16 w1700822810
+Z17 8C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyDE0_Nano.sv
+Z18 FC:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyDE0_Nano.sv
+L0 89
+R8
+r1
+!s85 0
+31
+R9
+Z19 !s107 C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyDE0_Nano.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C|C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyDE0_Nano.sv|
+!i113 1
+R12
+R13
+R14
+vmux2
+R1
+R2
+!i10b 1
+!s100 0^EzHO]5@lo1HbWiDa5_k3
+ISVI0H9O3[TZoO8aNelS9<2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 408
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vmux3
+R1
+R2
+!i10b 1
+!s100 e3_gzLog>5]dUHBO94h;i0
+Ilc4@AiW]PoVzL<F7C_Uf40
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 336
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vMyDE0_Nano
+R1
+R2
+!i10b 1
+!s100 407HTMAM^a0P=Wg9]ED?Q0
+Im1PM`29_?Io@bjeV]7FiV1
+R3
+R15
+S1
+R0
+R16
+R17
+R18
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+R19
+R20
+!i113 1
+R12
+R13
+R14
+n@my@d@e0_@nano
+vMyTestbench
+R1
+R2
+!i10b 1
+!s100 ;hh1Qgo6Nec2i9e9_XWX_3
+I6eRXz:<@kY[Lzg;lPmN]M2
+R3
+!s105 MyTestbench_sv_unit
+S1
+R0
+w1700756116
+8C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyTestbench.sv
+FC:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyTestbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyTestbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C|C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyTestbench.sv|
+!i113 1
+R12
+R13
+R14
+n@my@testbench
+vregfile
+R1
+R2
+!i10b 1
+!s100 6H7C1N>dAkSXi]5:O3H]=1
+I5T5YK[4LR6GF:^6nQz`[g1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 345
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14

@@ -186,9 +186,8 @@ module mainfsm(input  logic         clk,
       DECODE: case(Op)
                 2'b00: begin
                   if (Funct[4:1] === 4'b1001)
-                    if (Funct[0] & Funct[5]) nextstate = TESTI;
-                    else if (Funct[0])       nextstate = TESTR;
-                    else                     nextstate = FETCH;
+                    if (Funct[5])     nextstate = TESTI;
+                    else              nextstate = TESTR;
                   else if (Funct[5])  nextstate = EXECUTEI;
                   else                nextstate = EXECUTER;
                 end

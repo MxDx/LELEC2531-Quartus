@@ -1,5 +1,5 @@
 Analysis & Elaboration report for MyDE0_Nano
-Thu Nov 23 18:43:47 2023
+Thu Nov 23 18:57:56 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -59,7 +59,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Thu Nov 23 18:43:47 2023       ;
+; Analysis & Elaboration Status      ; Successful - Thu Nov 23 18:57:56 2023       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; MyDE0_Nano                                  ;
 ; Top-level Entity Name              ; MyDE0_Nano                                  ;
@@ -460,7 +460,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Nov 23 18:43:13 2023
+    Info: Processing started: Thu Nov 23 18:57:22 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MyDE0_Nano -c MyDE0_Nano --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -469,17 +469,17 @@ Info (12021): Found 15 design units, including 15 entities, in source file myarm
     Info (12023): Found entity 2: controller File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 85
     Info (12023): Found entity 3: decode File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 113
     Info (12023): Found entity 4: mainfsm File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 161
-    Info (12023): Found entity 5: condlogic File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 234
-    Info (12023): Found entity 6: condcheck File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 257
-    Info (12023): Found entity 7: datapath File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 288
-    Info (12023): Found entity 8: mux3 File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 337
-    Info (12023): Found entity 9: regfile File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 346
-    Info (12023): Found entity 10: extend File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 366
-    Info (12023): Found entity 11: adder File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 382
-    Info (12023): Found entity 12: flopenr File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 389
-    Info (12023): Found entity 13: flopr File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 399
-    Info (12023): Found entity 14: mux2 File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 409
-    Info (12023): Found entity 15: alu File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 417
+    Info (12023): Found entity 5: condlogic File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 233
+    Info (12023): Found entity 6: condcheck File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 256
+    Info (12023): Found entity 7: datapath File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 287
+    Info (12023): Found entity 8: mux3 File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 336
+    Info (12023): Found entity 9: regfile File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 345
+    Info (12023): Found entity 10: extend File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 365
+    Info (12023): Found entity 11: adder File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 381
+    Info (12023): Found entity 12: flopenr File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 388
+    Info (12023): Found entity 13: flopr File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 398
+    Info (12023): Found entity 14: mux2 File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 408
+    Info (12023): Found entity 15: alu File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 416
 Info (12021): Found 2 design units, including 2 entities, in source file myde0_nano.sv
     Info (12023): Found entity 1: MyDE0_Nano File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.sv Line: 6
     Info (12023): Found entity 2: mem File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.sv Line: 89
@@ -509,21 +509,21 @@ Info (12128): Elaborating entity "controller" for hierarchy "arm:arm|controller:
 Info (12128): Elaborating entity "decode" for hierarchy "arm:arm|controller:c|decode:dec" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 107
 Info (12128): Elaborating entity "mainfsm" for hierarchy "arm:arm|controller:c|decode:dec|mainfsm:fsm" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 130
 Info (10264): Verilog HDL Case Statement information at MyARM_MultiCycle.sv(184): all case item expressions in this case statement are onehot File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 184
-Info (10264): Verilog HDL Case Statement information at MyARM_MultiCycle.sv(213): all case item expressions in this case statement are onehot File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 213
+Info (10264): Verilog HDL Case Statement information at MyARM_MultiCycle.sv(212): all case item expressions in this case statement are onehot File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 212
 Info (12128): Elaborating entity "condlogic" for hierarchy "arm:arm|controller:c|condlogic:cl" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 110
-Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 245
-Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 249
-Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|controller:c|condlogic:cl|flopr:condreg" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 250
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm|controller:c|condlogic:cl|flopenr:flagreg1" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 244
+Info (12128): Elaborating entity "condcheck" for hierarchy "arm:arm|controller:c|condlogic:cl|condcheck:cc" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 248
+Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|controller:c|condlogic:cl|flopr:condreg" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 249
 Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm|datapath:dp" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 81
-Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm|datapath:dp|flopenr:pcreg" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 307
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:adrmux" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 310
-Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|datapath:dp|flopr:datareg" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 312
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:muxRA1" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 317
-Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm|datapath:dp|regfile:rf" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 321
-Info (12128): Elaborating entity "extend" for hierarchy "arm:arm|datapath:dp|extend:ext" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 324
-Info (12128): Elaborating entity "mux3" for hierarchy "arm:arm|datapath:dp|mux3:srcamux" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 327
-Info (12128): Elaborating entity "alu" for hierarchy "arm:arm|datapath:dp|alu:alu" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 329
-Warning (10230): Verilog HDL assignment warning at MyARM_MultiCycle.sv(431): truncated value with size 33 to match size of target (32) File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 431
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm|datapath:dp|flopenr:pcreg" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 306
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:adrmux" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 309
+Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|datapath:dp|flopr:datareg" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 311
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:muxRA1" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 316
+Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm|datapath:dp|regfile:rf" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 320
+Info (12128): Elaborating entity "extend" for hierarchy "arm:arm|datapath:dp|extend:ext" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 323
+Info (12128): Elaborating entity "mux3" for hierarchy "arm:arm|datapath:dp|mux3:srcamux" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 326
+Info (12128): Elaborating entity "alu" for hierarchy "arm:arm|datapath:dp|alu:alu" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 328
+Warning (10230): Verilog HDL assignment warning at MyARM_MultiCycle.sv(430): truncated value with size 33 to match size of target (32) File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv Line: 430
 Info (12128): Elaborating entity "mem" for hierarchy "mem:mem" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.sv Line: 75
 Warning (10850): Verilog HDL warning at MyDE0_Nano.sv(96): number of words (16) in memory file does not match the number of elements in the address range [0:255] File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.sv Line: 96
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_4e24.tdf
@@ -548,7 +548,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
     Info (12023): Found entity 1: cmpr_ngc File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/db/cmpr_ngc.tdf Line: 22
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2023.11.23.18:43:38 Progress: Loading sldbe248a27/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2023.11.23.18:57:46 Progress: Loading sldbe248a27/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -574,7 +574,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/ip/s
 Info (144001): Generated suppressed messages file C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 21 warnings
     Info: Peak virtual memory: 4858 megabytes
-    Info: Processing ended: Thu Nov 23 18:43:47 2023
+    Info: Processing ended: Thu Nov 23 18:57:56 2023
     Info: Elapsed time: 00:00:34
     Info: Total CPU time (on all processors): 00:00:40
 

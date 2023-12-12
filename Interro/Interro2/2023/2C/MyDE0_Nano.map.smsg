@@ -1,0 +1,4 @@
+Warning (10273): Verilog HDL warning at MyARM_MultiCycle.sv(140): extended using "x" or "z" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyARM_MultiCycle.sv Line: 140
+Info (10281): Verilog HDL Declaration information at MyARM_MultiCycle.sv(168): object "Branch" differs only in case from object "BRANCH" in the same scope File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyARM_MultiCycle.sv Line: 168
+Warning (10273): Verilog HDL warning at MyARM_MultiCycle.sv(377): extended using "x" or "z" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyARM_MultiCycle.sv Line: 377
+Warning (10273): Verilog HDL warning at MyARM_MultiCycle.sv(434): extended using "x" or "z" File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2023/2C/MyARM_MultiCycle.sv Line: 434

@@ -12,7 +12,7 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor {C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:43:56 on Nov 23,2023
+# Start time: 18:58:06 on Nov 23,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor" C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyARM_MultiCycle.sv 
 # -- Compiling module arm
 # -- Compiling module controller
@@ -33,34 +33,34 @@
 # Top level modules:
 # 	arm
 # 	adder
-# End time: 18:43:56 on Nov 23,2023, Elapsed time: 0:00:00
+# End time: 18:58:06 on Nov 23,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor {C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:43:57 on Nov 23,2023
+# Start time: 18:58:06 on Nov 23,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor" C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyDE0_Nano.sv 
 # -- Compiling module MyDE0_Nano
 # -- Compiling module mem
 # 
 # Top level modules:
 # 	MyDE0_Nano
-# End time: 18:43:57 on Nov 23,2023, Elapsed time: 0:00:00
+# End time: 18:58:06 on Nov 23,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor {C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyTestbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 18:43:57 on Nov 23,2023
+# Start time: 18:58:06 on Nov 23,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor" C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyTestbench.sv 
 # -- Compiling module MyTestbench
 # 
 # Top level modules:
 # 	MyTestbench
-# End time: 18:43:57 on Nov 23,2023, Elapsed time: 0:00:00
+# End time: 18:58:06 on Nov 23,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  MyTestbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" MyTestbench 
-# Start time: 18:43:57 on Nov 23,2023
+# Start time: 18:58:06 on Nov 23,2023
 # Loading sv_std.std
 # Loading work.MyTestbench
 # Loading work.MyDE0_Nano
@@ -146,5 +146,5 @@ run
 # ** Note: $stop    : C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyTestbench.sv(47)
 #    Time: 295 ps  Iteration: 1  Instance: /MyTestbench
 # Break in Module MyTestbench at C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Interro/Interro2/2022/LELEC2531_MultiCycleProcessor/MyTestbench.sv line 47
-# End time: 18:45:48 on Nov 23,2023, Elapsed time: 0:01:51
+# End time: 09:30:54 on Nov 24,2023, Elapsed time: 14:32:48
 # Errors: 0, Warnings: 29

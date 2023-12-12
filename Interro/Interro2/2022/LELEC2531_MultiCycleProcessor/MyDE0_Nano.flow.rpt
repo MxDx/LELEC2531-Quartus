@@ -1,5 +1,5 @@
 Flow report for MyDE0_Nano
-Thu Nov 23 18:43:47 2023
+Thu Nov 23 18:57:56 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Nov 23 18:43:47 2023       ;
+; Flow Status                        ; Successful - Thu Nov 23 18:57:56 2023       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; MyDE0_Nano                                  ;
 ; Top-level Entity Name              ; MyDE0_Nano                                  ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/23/2023 18:43:14 ;
+; Start date & time ; 11/23/2023 18:57:23 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; MyDE0_Nano          ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
 ; Assignment Name                        ; Value                                                                                                                                                                                                                                                                                                                                                           ; Default Value ; Entity Name ; Section Id       ;
 +----------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
-; COMPILER_SIGNATURE_ID                  ; 190135464152387.170076139304956                                                                                                                                                                                                                                                                                                                                 ; --            ; --          ; --               ;
+; COMPILER_SIGNATURE_ID                  ; 190135464152387.170076224202420                                                                                                                                                                                                                                                                                                                                 ; --            ; --          ; --               ;
 ; EDA_DESIGN_INSTANCE_NAME               ; NA                                                                                                                                                                                                                                                                                                                                                              ; --            ; --          ; MyTestbench      ;
 ; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; simulation/modelsim/wave.do                                                                                                                                                                                                                                                                                                                                     ; --            ; --          ; eda_simulation   ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; MyTestbench                                                                                                                                                                                                                                                                                                                                                     ; --            ; --          ; eda_simulation   ;
