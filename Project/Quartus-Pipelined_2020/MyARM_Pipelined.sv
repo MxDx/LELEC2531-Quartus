@@ -1,4 +1,4 @@
-module arm(	input  logic        clk, reset,
+module arm(  input  logic        clk, reset,
 				output logic [31:0] PCF,
 				input  logic [31:0] InstrF,
 				output logic 		  MemWriteM,
@@ -62,6 +62,8 @@ logic [1:0]	FlagWriteD, FlagWriteE;
 logic			PCSrcD, PCSrcE, PCSrcM;
 logic [3:0] FlagsE, FlagsNextE, CondE;
 
+logic NoWriteD, NoWriteE;
+
 // Decode stage
   always_comb
       casex(InstrD[27:26])
@@ -83,6 +85,7 @@ always_comb
 			4'b0010: ALUControlD = 2'b01; // SUB
 			4'b0000: ALUControlD = 2'b10; // AND
 			4'b1100: ALUControlD = 2'b11; // ORR
+      4'b1010: ALUControlD = 2'b01; // CMP 
 			default: ALUControlD = 2'bx;  // unimplemented
 		endcase
 
@@ -93,9 +96,13 @@ always_comb
       FlagWriteD  = 2'b00; // don't update Flags
 	 end
 
+assign NoWriteD = (InstrD[24:21] == 4'b1010); // CMP
+
 assign PCSrcD = ((InstrD[15:12] == 4'b1111) & RegWriteD);
 
 // Execute stage
+
+flopr #(1)  nowriteE(clk, reset, NoWriteD, NoWriteE); 
 
 floprc #(7) flushedregsE(clk, reset, FlushE,
 	{FlagWriteD, BranchD, MemWriteD, RegWriteD, PCSrcD, MemtoRegD},
@@ -109,7 +116,7 @@ flopr #(4) flagsreg(clk, reset, FlagsNextE, FlagsE);
 
 conditional Cond(CondE, FlagsE, ALUFlagsE, FlagWriteE, CondExE, FlagsNextE);
 assign BranchTakenE = BranchE & CondExE;
-assign RegWriteGatedE = RegWriteE & CondExE;
+assign RegWriteGatedE = RegWriteE & CondExE & ~NoWriteE;
 assign MemWriteGatedE = MemWriteE & CondExE;
 assign PCSrcGatedE = PCSrcE & CondExE;
 

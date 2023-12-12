@@ -65,7 +65,7 @@ input logic 		     [1:0]		GPIO_1_IN
 //=======================================================
 
 	logic 		 	clk, reset;
-   logic [31:0] 	WriteDataM, DataAdrM;
+   	logic [31:0] 	WriteDataM, DataAdrM;
 	logic 		 	MemWriteM;
 	logic [31:0] 	PCF, InstrF, ReadDataM, ReadData_dmem, ReadData_spi;
 	
@@ -156,7 +156,7 @@ module imem(input  logic [31:0] a,
 				
   logic [31:0] RAM[255:0];
   
-initial $readmemh("MyProgram_Pipelined.hex",RAM);
+initial $readmemh("MyProgram.hex",RAM);
 assign rd = RAM[a[31:2]]; // word aligned
 
 endmodule
