@@ -30,6 +30,13 @@ module MyTestbench();
   assign DataAdr = GPIO_2;
   assign ReadData = GPIO_1[31:16];
 
+  // initialize test
+  initial
+    begin
+	 	f = $fopen("student_simul.txt", "w");
+      reset <= 1; # 22; reset <= 0;
+    end
+
   // generate clock to sequence tests
   always
     begin
@@ -40,13 +47,12 @@ module MyTestbench();
   always @(negedge clk)
     begin
       if(MemWrite) begin
-        if(DataAdr === 55 & WriteData === 1) begin
+        if(DataAdr === 220 & WriteData === 20) begin
           $display("Simulation succeeded");
           $stop;
-        end else if (DataAdr !== 96) begin
-          $display("Simulation failed");
-          $stop;
         end
+        $display("Simulation failed");
+        $stop;
       end
     end
      

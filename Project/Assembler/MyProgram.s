@@ -6,10 +6,10 @@ main:
     ADD R1, R0, #1
     CMP R0, R1
     BEQ fail
-    B   success
+    BLLT   success
 
 fail:
-    STR R0, [R0, #220] // Store 0 at 55
+    STR R0, [R0, #220] @ Store 0 at 55
 
 success:
-    STR R1, [R0, #220] // Store 1 at 55
+    STR R14, [R0, #220] @ Store 20 at 55

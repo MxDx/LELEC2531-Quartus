@@ -1,6 +1,6 @@
 EDA Netlist Writer report for MyDE0_Nano
-Mon Sep 14 22:17:41 2020
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Tue Dec 12 18:14:11 2023
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -36,7 +36,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Sep 14 22:17:41 2020 ;
+; EDA Netlist Writer Status ; Successful - Tue Dec 12 18:14:11 2023 ;
 ; Revision Name             ; MyDE0_Nano                            ;
 ; Top-level Entity Name     ; MyDE0_Nano                            ;
 ; Family                    ; Cyclone IV E                          ;
@@ -66,20 +66,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                                             ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                                                        ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_6_1200mv_85c_slow.vo     ;
-; Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_6_1200mv_0c_slow.vo      ;
-; Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_min_1200mv_0c_fast.vo    ;
-; Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano.vo                       ;
-; Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_6_1200mv_85c_v_slow.sdo  ;
-; Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_6_1200mv_0c_v_slow.sdo   ;
-; Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_min_1200mv_0c_v_fast.sdo ;
-; Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_v.sdo                    ;
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                                                                                                         ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                                                                                                    ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_6_1200mv_85c_slow.vo     ;
+; /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_6_1200mv_0c_slow.vo      ;
+; /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_min_1200mv_0c_fast.vo    ;
+; /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano.vo                       ;
+; /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_6_1200mv_85c_v_slow.sdo  ;
+; /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_6_1200mv_0c_v_slow.sdo   ;
+; /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_min_1200mv_0c_v_fast.sdo ;
+; /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/MyDE0_Nano_v.sdo                    ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -87,22 +87,22 @@ refer to the applicable agreement for further details.
 +-----------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
-    Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Mon Sep 14 22:17:22 2020
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Tue Dec 12 18:14:07 2023
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off MyDE0_Nano -c MyDE0_Nano
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file MyDE0_Nano_6_1200mv_85c_slow.vo in folder "Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file MyDE0_Nano_6_1200mv_0c_slow.vo in folder "Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file MyDE0_Nano_min_1200mv_0c_fast.vo in folder "Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file MyDE0_Nano.vo in folder "Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file MyDE0_Nano_6_1200mv_85c_v_slow.sdo in folder "Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file MyDE0_Nano_6_1200mv_0c_v_slow.sdo in folder "Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file MyDE0_Nano_min_1200mv_0c_v_fast.sdo in folder "Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file MyDE0_Nano_v.sdo in folder "Z:/Documents/Home - MesDocuments/MesProjets/MyRaspberry-PI/MyApps/MyARM/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file MyDE0_Nano_6_1200mv_85c_slow.vo in folder "/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file MyDE0_Nano_6_1200mv_0c_slow.vo in folder "/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file MyDE0_Nano_min_1200mv_0c_fast.vo in folder "/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file MyDE0_Nano.vo in folder "/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file MyDE0_Nano_6_1200mv_85c_v_slow.sdo in folder "/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file MyDE0_Nano_6_1200mv_0c_v_slow.sdo in folder "/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file MyDE0_Nano_min_1200mv_0c_v_fast.sdo in folder "/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file MyDE0_Nano_v.sdo in folder "/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4704 megabytes
-    Info: Processing ended: Mon Sep 14 22:17:41 2020
-    Info: Elapsed time: 00:00:19
-    Info: Total CPU time (on all processors): 00:00:07
+    Info: Peak virtual memory: 1058 megabytes
+    Info: Processing ended: Tue Dec 12 18:14:11 2023
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
 
 
