@@ -12,7 +12,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:15:50 on Dec 13,2023
+# Start time: 14:25:33 on Dec 13,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_ver /home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -94,7 +94,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 12:15:51 on Dec 13,2023, Elapsed time: 0:00:01
+# End time: 14:25:34 on Dec 13,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -105,7 +105,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:15:51 on Dec 13,2023
+# Start time: 14:25:34 on Dec 13,2023
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver /home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -169,7 +169,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 12:15:52 on Dec 13,2023, Elapsed time: 0:00:01
+# End time: 14:25:34 on Dec 13,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -180,7 +180,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:15:52 on Dec 13,2023
+# Start time: 14:25:34 on Dec 13,2023
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver /home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -222,7 +222,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 12:15:52 on Dec 13,2023, Elapsed time: 0:00:00
+# End time: 14:25:34 on Dec 13,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -233,7 +233,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:15:52 on Dec 13,2023
+# Start time: 14:25:34 on Dec 13,2023
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver /home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -363,7 +363,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 12:15:53 on Dec 13,2023, Elapsed time: 0:00:01
+# End time: 14:25:36 on Dec 13,2023, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -374,7 +374,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:15:53 on Dec 13,2023
+# Start time: 14:25:36 on Dec 13,2023
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver /home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -457,7 +457,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 12:15:54 on Dec 13,2023, Elapsed time: 0:00:01
+# End time: 14:25:37 on Dec 13,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cycloneive_ver
@@ -468,7 +468,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cycloneive_ver {/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/cycloneive_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:15:54 on Dec 13,2023
+# Start time: 14:25:37 on Dec 13,2023
 # vlog -reportprogress 300 -vlog01compat -work cycloneive_ver /home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -546,7 +546,7 @@
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 12:15:55 on Dec 13,2023, Elapsed time: 0:00:01
+# End time: 14:25:38 on Dec 13,2023, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -560,7 +560,7 @@
 # 
 # vlog -sv -work work +incdir+/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531\ -\ Design\ and\ architecture\ of\ digital\ electronic\ systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020 {/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:15:55 on Dec 13,2023
+# Start time: 14:25:38 on Dec 13,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020" /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv 
 # -- Compiling module arm
 # -- Compiling module controller
@@ -581,21 +581,21 @@
 # 
 # Top level modules:
 # 	arm
-# End time: 12:15:55 on Dec 13,2023, Elapsed time: 0:00:00
+# End time: 14:25:38 on Dec 13,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531\ -\ Design\ and\ architecture\ of\ digital\ electronic\ systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020 {/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MySPI.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:15:55 on Dec 13,2023
+# Start time: 14:25:38 on Dec 13,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020" /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MySPI.sv 
 # -- Compiling module spi_slave
 # 
 # Top level modules:
 # 	spi_slave
-# End time: 12:15:55 on Dec 13,2023, Elapsed time: 0:00:00
+# End time: 14:25:38 on Dec 13,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531\ -\ Design\ and\ architecture\ of\ digital\ electronic\ systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020 {/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyDE0_Nano.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:15:55 on Dec 13,2023
+# Start time: 14:25:38 on Dec 13,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020" /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyDE0_Nano.sv 
 # -- Compiling module MyDE0_Nano
 # -- Compiling module dmem
@@ -603,23 +603,23 @@
 # 
 # Top level modules:
 # 	MyDE0_Nano
-# End time: 12:15:55 on Dec 13,2023, Elapsed time: 0:00:00
+# End time: 14:25:38 on Dec 13,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531\ -\ Design\ and\ architecture\ of\ digital\ electronic\ systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020 {/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 12:15:55 on Dec 13,2023
+# Start time: 14:25:38 on Dec 13,2023
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020" /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv 
 # -- Compiling module MyTestbench
 # 
 # Top level modules:
 # 	MyTestbench
-# End time: 12:15:55 on Dec 13,2023, Elapsed time: 0:00:00
+# End time: 14:25:38 on Dec 13,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  MyTestbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" MyTestbench 
-# Start time: 12:15:55 on Dec 13,2023
+# Start time: 14:25:38 on Dec 13,2023
 # Loading sv_std.std
 # Loading work.MyTestbench
 # Loading work.MyDE0_Nano
@@ -683,5 +683,69 @@
 # ** Note: $stop    : /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(52)
 #    Time: 125 ps  Iteration: 1  Instance: /MyTestbench
 # Break in Module MyTestbench at /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv line 52
-# End time: 12:17:35 on Dec 13,2023, Elapsed time: 0:01:40
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" work.MyTestbench
+# End time: 14:25:57 on Dec 13,2023, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 29
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" work.MyTestbench 
+# Start time: 14:25:57 on Dec 13,2023
+# Loading sv_std.std
+# Loading work.MyTestbench
+# Loading work.MyDE0_Nano
+# Loading work.arm
+# Loading work.controller
+# Loading work.flopr
+# Loading work.floprc
+# Loading work.conditional
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.flopenrc
+# Loading work.regfile
+# Loading work.extend
+# Loading work.mux3
+# Loading work.alu
+# Loading work.eqcmp
+# Loading work.hazard
+# Loading work.imem
+# Loading work.dmem
+# Loading work.spi_slave
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 32, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MyTestbench/dut File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv Line: 20
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'LED'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_DQM'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'EPCS_ASDO'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'EPCS_DATA0'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'EPCS_DCLK'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'EPCS_NCSO'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'G_SENSOR_CS_N'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'G_SENSOR_INT'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'I2C_SCLK'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'I2C_SDAT'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'ADC_CS_N'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'ADC_SADDR'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'ADC_SDAT'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'GPIO_2_IN'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'GPIO_0_PI_IN'.
+# ** Warning: (vsim-3722) /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'GPIO_1_IN'.
+do wave.do
+run 
+run
+# Simulation succeeded
+# ** Note: $stop    : /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(52)
+#    Time: 125 ps  Iteration: 1  Instance: /MyTestbench
+# Break in Module MyTestbench at /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv line 52
+# End time: 14:34:43 on Dec 13,2023, Elapsed time: 0:08:46
 # Errors: 0, Warnings: 29

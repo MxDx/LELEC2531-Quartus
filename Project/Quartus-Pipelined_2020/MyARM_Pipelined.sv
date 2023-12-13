@@ -100,14 +100,14 @@ always_comb
 	 end
 
 assign NoWriteD = (InstrD[24:21] == 4'b1010); // CMP
-assign BLFlagD = (InstrD[27:24] == 4'b1011);    // BL 
+assign BLFlagD = (InstrD[27:24] == 4'b1011);  // BL 
 
 assign PCSrcD = (InstrD[15:12] == 4'b1111) & RegWriteD;
 
 // Execute stage
 
-flopr #(1)  nowriteE(clk, reset, NoWriteD, NoWriteE);
-flopr #(1)  blflagE(clk, reset, BLFlagD, BLFlagE); 
+flopr #(1)  nowriteE(clk, reset, NoWriteD, NoWriteE); // Passing the NoWriteD to the NoWriteE
+flopr #(1)  blflagE(clk, reset, BLFlagD, BLFlagE);    // Passing the BLFlagD to the BLFlagE
 
 floprc #(7) flushedregsE(clk, reset, FlushE,
 	{FlagWriteD, BranchD, MemWriteD, RegWriteD, PCSrcD, MemtoRegD},
@@ -121,8 +121,8 @@ flopr #(4) flagsreg(clk, reset, FlagsNextE, FlagsE);
 
 conditional Cond(CondE, FlagsE, ALUFlagsE, FlagWriteE, CondExE, FlagsNextE);
 assign BranchTakenE = BranchE & CondExE;
-assign BLFlag = BLFlagE & BranchTakenE;
-assign RegWriteGatedE = RegWriteE & CondExE & ~NoWriteE;
+assign BLFlag = BLFlagE & BranchTakenE; // Update the BLFlag if the BL is verified
+assign RegWriteGatedE = RegWriteE & CondExE & ~NoWriteE; // Do not write if CMP 
 assign MemWriteGatedE = MemWriteE & CondExE;
 assign PCSrcGatedE = PCSrcE & CondExE;
 
@@ -196,7 +196,7 @@ module datapath(	input  logic  clk, reset,
 						output logic			  Match_1E_M, Match_1E_W, Match_2E_M, Match_2E_W, Match_12D_E,
 						input  logic [1:0]  ForwardAE, ForwardBE,
 						input  logic			  StallF, StallD, FlushD,
-            input  logic        BLFlag);
+            input  logic        BLFlag); // New BLFlag input
 
 logic [31:0] PCPlus4F, PCnext1F, PCnextF;
 logic [31:0] ExtImmD, rd1D, rd2D, PCPlus8D;
@@ -205,7 +205,8 @@ logic [31:0] ReadDataW, ALUOutW, ResultW;
 logic [3:0]  RA1D, RA2D, RA1E, RA2E, WA3E, WA3M, WA3W;
 logic 		 Match_1D_E, Match_2D_E;
 
-logic [31:0] PCFE;
+logic [31:0] PCFE; // PCF for execute stage to store the value in the LR 
+                    // register when the BL is called and executed (cond verif)
 
 // Fetch stage
 mux2 #(32) pcnextmux(PCPlus4F, ResultW, PCSrcW, PCnext1F);
@@ -218,7 +219,7 @@ assign PCPlus8D = PCPlus4F; // skip register
 flopenrc #(32) instrreg(clk, reset, ~StallD, FlushD, InstrF, InstrD);
 mux2 #(4) 		ra1mux(InstrD[19:16], 4'b1111, RegSrcD[0], RA1D);
 mux2 #(4) 		ra2mux(InstrD[3:0], InstrD[15:12], RegSrcD[1], RA2D);
-regfile 	 		rf(clk, RegWriteW, RA1D, RA2D, WA3W, ResultW, PCPlus8D, rd1D, rd2D, PCFE, BLFlag);
+regfile 	 		rf(clk, RegWriteW, RA1D, RA2D, WA3W, ResultW, PCPlus8D, rd1D, rd2D, PCFE, BLFlag); // New inputs for the regfile
 extend 	 		ext(InstrD[23:0], ImmSrcD, ExtImmD);
 
 // Execute Stage
@@ -319,7 +320,7 @@ logic [31:0] rf[14:0];
 
 always_ff @(negedge clk) begin
     if (we3) rf[wa3] <= wd3;
-    if (blflag) rf[14] <= pc;
+    if (blflag) rf[14] <= pc; // The regfile update the LR register when the BL is called and executed (cond verif)
 end
 
 assign rd1 = (ra1 == 4'b1111) ? r15 : rf[ra1];

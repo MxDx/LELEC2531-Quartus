@@ -5,7 +5,7 @@ main:
     SUB R0, R15, R15
     ADD R1, R0, #1
     CMP R0, R1
-    BEQ fail
+    BLEQ fail
     BLLT   success
 
 fail:

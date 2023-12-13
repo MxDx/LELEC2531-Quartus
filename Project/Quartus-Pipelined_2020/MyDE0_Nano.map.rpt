@@ -1,5 +1,5 @@
 Analysis & Elaboration report for MyDE0_Nano
-Wed Dec 13 12:15:14 2023
+Wed Dec 13 14:25:07 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -82,7 +82,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Wed Dec 13 12:15:14 2023       ;
+; Analysis & Elaboration Status      ; Successful - Wed Dec 13 14:25:07 2023       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; MyDE0_Nano                                  ;
 ; Top-level Entity Name              ; MyDE0_Nano                                  ;
@@ -713,7 +713,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Dec 13 12:14:40 2023
+    Info: Processing started: Wed Dec 13 14:24:33 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MyDE0_Nano -c MyDE0_Nano --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -722,18 +722,18 @@ Info (12021): Found 16 design units, including 16 entities, in source file MyARM
     Info (12023): Found entity 2: controller File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 41
     Info (12023): Found entity 3: conditional File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 147
     Info (12023): Found entity 4: datapath File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 184
-    Info (12023): Found entity 5: hazard File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 259
-    Info (12023): Found entity 6: regfile File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 304
-    Info (12023): Found entity 7: extend File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 330
-    Info (12023): Found entity 8: alu File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 344
-    Info (12023): Found entity 9: adder File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 372
-    Info (12023): Found entity 10: flopenr File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 378
-    Info (12023): Found entity 11: flopr File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 389
-    Info (12023): Found entity 12: flopenrc File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 400
-    Info (12023): Found entity 13: floprc File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 413
-    Info (12023): Found entity 14: mux2 File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 426
-    Info (12023): Found entity 15: mux3 File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 433
-    Info (12023): Found entity 16: eqcmp File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 440
+    Info (12023): Found entity 5: hazard File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 260
+    Info (12023): Found entity 6: regfile File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 305
+    Info (12023): Found entity 7: extend File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 331
+    Info (12023): Found entity 8: alu File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 345
+    Info (12023): Found entity 9: adder File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 373
+    Info (12023): Found entity 10: flopenr File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 379
+    Info (12023): Found entity 11: flopr File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 390
+    Info (12023): Found entity 12: flopenrc File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 401
+    Info (12023): Found entity 13: floprc File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 414
+    Info (12023): Found entity 14: mux2 File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 427
+    Info (12023): Found entity 15: mux3 File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 434
+    Info (12023): Found entity 16: eqcmp File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 441
 Info (12021): Found 3 design units, including 3 entities, in source file MyDE0_Nano.sv
     Info (12023): Found entity 1: MyDE0_Nano File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyDE0_Nano.sv Line: 6
     Info (12023): Found entity 2: dmem File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyDE0_Nano.sv Line: 142
@@ -770,18 +770,18 @@ Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|controller:c|flo
 Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|controller:c|flopr:condregE" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 117
 Info (12128): Elaborating entity "conditional" for hierarchy "arm:arm|controller:c|conditional:Cond" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 122
 Info (12128): Elaborating entity "datapath" for hierarchy "arm:arm|datapath:dp" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 32
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:pcnextmux" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 211
-Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm|datapath:dp|flopenr:pcreg" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 213
-Info (12128): Elaborating entity "adder" for hierarchy "arm:arm|datapath:dp|adder:pcadd" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 214
-Info (12128): Elaborating entity "flopenrc" for hierarchy "arm:arm|datapath:dp|flopenrc:instrreg" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 218
-Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:ra1mux" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 219
-Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm|datapath:dp|regfile:rf" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 221
-Info (12128): Elaborating entity "extend" for hierarchy "arm:arm|datapath:dp|extend:ext" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 222
-Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|datapath:dp|flopr:pcfreg" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 225
-Info (12128): Elaborating entity "mux3" for hierarchy "arm:arm|datapath:dp|mux3:byp1mux" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 232
-Info (12128): Elaborating entity "alu" for hierarchy "arm:arm|datapath:dp|alu:alu" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 235
-Warning (10230): Verilog HDL assignment warning at MyARM_Pipelined.sv(358): truncated value with size 33 to match size of target (32) File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 358
-Info (12128): Elaborating entity "eqcmp" for hierarchy "arm:arm|datapath:dp|eqcmp:m0" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 249
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:pcnextmux" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 212
+Info (12128): Elaborating entity "flopenr" for hierarchy "arm:arm|datapath:dp|flopenr:pcreg" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 214
+Info (12128): Elaborating entity "adder" for hierarchy "arm:arm|datapath:dp|adder:pcadd" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 215
+Info (12128): Elaborating entity "flopenrc" for hierarchy "arm:arm|datapath:dp|flopenrc:instrreg" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 219
+Info (12128): Elaborating entity "mux2" for hierarchy "arm:arm|datapath:dp|mux2:ra1mux" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 220
+Info (12128): Elaborating entity "regfile" for hierarchy "arm:arm|datapath:dp|regfile:rf" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 222
+Info (12128): Elaborating entity "extend" for hierarchy "arm:arm|datapath:dp|extend:ext" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 223
+Info (12128): Elaborating entity "flopr" for hierarchy "arm:arm|datapath:dp|flopr:pcfreg" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 226
+Info (12128): Elaborating entity "mux3" for hierarchy "arm:arm|datapath:dp|mux3:byp1mux" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 233
+Info (12128): Elaborating entity "alu" for hierarchy "arm:arm|datapath:dp|alu:alu" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 236
+Warning (10230): Verilog HDL assignment warning at MyARM_Pipelined.sv(359): truncated value with size 33 to match size of target (32) File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 359
+Info (12128): Elaborating entity "eqcmp" for hierarchy "arm:arm|datapath:dp|eqcmp:m0" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 250
 Info (12128): Elaborating entity "hazard" for hierarchy "arm:arm|hazard:h" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv Line: 37
 Info (12128): Elaborating entity "imem" for hierarchy "imem:imem" File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyDE0_Nano.sv Line: 81
 Warning (10850): Verilog HDL warning at MyDE0_Nano.sv(159): number of words (7) in memory file does not match the number of elements in the address range [0:255] File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyDE0_Nano.sv Line: 159
@@ -812,7 +812,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr
     Info (12023): Found entity 1: cmpr_ngc File: /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/db/cmpr_ngc.tdf Line: 22
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "auto_signaltap_0"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2023.12.13.12:15:05 Progress: Loading sldbe248a27/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2023.12.13.14:24:58 Progress: Loading sldbe248a27/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -838,9 +838,9 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/ip/s
 Info (144001): Generated suppressed messages file /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyDE0_Nano.map.smsg
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 25 warnings
     Info: Peak virtual memory: 1334 megabytes
-    Info: Processing ended: Wed Dec 13 12:15:14 2023
+    Info: Processing ended: Wed Dec 13 14:25:07 2023
     Info: Elapsed time: 00:00:34
-    Info: Total CPU time (on all processors): 00:01:16
+    Info: Total CPU time (on all processors): 00:01:13
 
 
 +--------------------------------------------+
