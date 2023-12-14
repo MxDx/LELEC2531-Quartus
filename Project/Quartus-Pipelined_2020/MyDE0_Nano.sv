@@ -134,7 +134,7 @@ input logic 		     [1:0]		GPIO_1_IN
 	);
 	
 	assign spi_clk  		= GPIO_0_PI[11];	// SCLK = pin 16 = GPIO_11
-	assign spi_cs   		= GPIO_0_PI[9];	// CE0  = pin 14 = GPIO_9
+	assign spi_cs   		= GPIO_0_PI[9];		// CE0  = pin 14 = GPIO_9
 	assign spi_mosi     	= GPIO_0_PI[15];	// MOSI = pin 20 = GPIO_15
 	
 	assign GPIO_0_PI[13] = spi_cs ? 1'bz : spi_miso;  // MISO = pin 18 = GPIO_13

@@ -16,9 +16,11 @@ add wave -noupdate -radix float32 {/MyTestbench/dut/arm/dp/rf/rf[3]}
 add wave -noupdate -radix float32 /MyTestbench/dut/ReadData_coproc
 add wave -noupdate -radix float32 /MyTestbench/dut/ReadDataM
 add wave -noupdate -radix float32 /MyTestbench/dut/ReadData_dmem
-add wave -noupdate -radix float32 {/MyTestbench/dut/dmem/RAM[220]}
+add wave -noupdate -radix float32 {/MyTestbench/dut/spi_slave_instance/misoRAM[0]}
+add wave -noupdate -radix float32 {/MyTestbench/dut/spi_slave_instance/misoRAM[1]}
+add wave -noupdate -radix float32 {/MyTestbench/dut/spi_slave_instance/misoRAM[2]}
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {36 ps} 0}
+WaveRestoreCursors {{Cursor 1} {29 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
