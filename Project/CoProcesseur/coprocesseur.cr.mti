@@ -1,0 +1,9 @@
+{/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/CoProcesseur/coprocesseur.sv} {1 {vlog -work work -sv -stats=none {/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/CoProcesseur/coprocesseur.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FloatingPointAdder
+-- Compiling module FloatingPointAdder_tb
+
+Top level modules:
+	FloatingPointAdder_tb
+
+} {} {}}

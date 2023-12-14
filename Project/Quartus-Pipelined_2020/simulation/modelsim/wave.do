@@ -1,18 +1,24 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
+add wave -noupdate /MyTestbench/dut/cs_dmem
+add wave -noupdate /MyTestbench/dut/cs_coproc
+add wave -noupdate -radix decimal /MyTestbench/dut/DataAdrM
 add wave -noupdate /MyTestbench/dut/clk
-add wave -noupdate /MyTestbench/dut/arm/c/ALUControlD
-add wave -noupdate /MyTestbench/dut/arm/c/ALUControlE
-add wave -noupdate /MyTestbench/dut/arm/c/ALUFlagsE
-add wave -noupdate /MyTestbench/dut/arm/c/NoWriteD
-add wave -noupdate /MyTestbench/dut/arm/c/NoWriteE
-add wave -noupdate -radix hexadecimal /MyTestbench/dut/arm/InstrD
-add wave -noupdate /MyTestbench/dut/arm/c/BLFlagD
-add wave -noupdate -radix binary /MyTestbench/dut/arm/c/BLFlagE
-add wave -noupdate /MyTestbench/dut/arm/c/BLFlag
-add wave -noupdate -radix decimal {/MyTestbench/dut/arm/dp/rf/rf[14]}
+add wave -noupdate -radix float32 /MyTestbench/dut/coproc/A
+add wave -noupdate -radix float32 /MyTestbench/dut/coproc/B
+add wave -noupdate -radix float32 /MyTestbench/dut/coproc/S
+add wave -noupdate -radix float32 /MyTestbench/dut/coproc/Result
+add wave -noupdate -radix hexadecimal /MyTestbench/dut/dmem/rd
+add wave -noupdate -radix float32 {/MyTestbench/dut/arm/dp/rf/rf[0]}
+add wave -noupdate -radix float32 {/MyTestbench/dut/arm/dp/rf/rf[1]}
+add wave -noupdate -radix float32 {/MyTestbench/dut/arm/dp/rf/rf[2]}
+add wave -noupdate -radix float32 {/MyTestbench/dut/arm/dp/rf/rf[3]}
+add wave -noupdate -radix float32 /MyTestbench/dut/ReadData_coproc
+add wave -noupdate -radix float32 /MyTestbench/dut/ReadDataM
+add wave -noupdate -radix float32 /MyTestbench/dut/ReadData_dmem
+add wave -noupdate -radix float32 {/MyTestbench/dut/dmem/RAM[220]}
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {20 ps} 0}
+WaveRestoreCursors {{Cursor 1} {36 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100

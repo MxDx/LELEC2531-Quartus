@@ -1,0 +1,63 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/maxime
+vFloatingPointAdder
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1702490825
+!i10b 1
+!s100 2Bb0lzVF@jI?>Tl@9Di[]3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IIU86k5k=BcD0D85OWO8k43
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/CoProcesseur
+Z5 w1702490820
+Z6 8/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/CoProcesseur/coprocesseur.sv
+Z7 F/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/CoProcesseur/coprocesseur.sv
+!i122 17
+L0 1 114
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1702490825.000000
+!s107 /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/CoProcesseur/coprocesseur.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/CoProcesseur/coprocesseur.sv|
+!i113 1
+Z11 o-work work -sv
+Z12 tCvgOpt 0
+n@floating@point@adder
+vFloatingPointAdder_tb
+R0
+R1
+!i10b 1
+!s100 U@c76P3AWG[ibEQW`:2Rm1
+R2
+IGP7<g9Y278e_XZRNjIfDR0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 17
+L0 117 79
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/CoProcesseur/coprocesseur.sv|
+R10
+!i113 1
+R11
+R12
+n@floating@point@adder_tb

@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim
 valt_bidir_buf
-Z1 !s110 1702473933
+Z1 !s110 1702555003
 !i10b 1
 !s100 IMTil^l53STzzcJ`NbRGA1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ R0
 Z4 w1536791154
 Z5 8/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/altera_primitives.v
 Z6 F/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/altera_primitives.v
-!i122 15
+!i122 26
 L0 1217 32
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1702473933.000000
+Z8 !s108 1702555003.000000
 !s107 /home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/altera_primitives.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_ver|/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/altera_primitives.v|
 !i113 1
@@ -43,7 +43,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1179 36
 R7
 r1
@@ -66,7 +66,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 984 13
 R7
 r1
@@ -89,7 +89,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1067 28
 R7
 r1
@@ -112,7 +112,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1038 27
 R7
 r1
@@ -135,7 +135,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1140 37
 R7
 r1
@@ -158,7 +158,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 999 17
 R7
 r1
@@ -181,7 +181,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1097 19
 R7
 r1
@@ -204,7 +204,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1018 18
 R7
 r1
@@ -227,7 +227,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1118 20
 R7
 r1
@@ -250,7 +250,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 48 6
 R7
 r1
@@ -273,7 +273,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 64 9
 R7
 r1
@@ -296,7 +296,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 56 6
 R7
 r1
@@ -319,7 +319,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 589 392
 R7
 r1
@@ -342,7 +342,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 202 9
 R7
 r1
@@ -365,7 +365,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 213 9
 R7
 r1
@@ -388,7 +388,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 224 20
 R7
 r1
@@ -411,7 +411,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 246 92
 R7
 r1
@@ -434,7 +434,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 340 93
 R7
 r1
@@ -457,7 +457,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 152 16
 R7
 r1
@@ -480,7 +480,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 75 6
 R7
 r1
@@ -503,7 +503,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 37 6
 R7
 r1
@@ -526,7 +526,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 513 9
 R7
 r1
@@ -549,7 +549,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 524 9
 R7
 r1
@@ -572,7 +572,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 138 12
 R7
 r1
@@ -595,7 +595,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 122 6
 R7
 r1
@@ -618,7 +618,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 130 6
 R7
 r1
@@ -641,7 +641,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 97 6
 R7
 r1
@@ -664,7 +664,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 170 30
 R7
 r1
@@ -677,7 +677,7 @@ R9
 R10
 R11
 UPRIM_GDFF_HIGH
-R1
+Z13 !s110 1702555004
 !i10b 1
 !s100 H_4_KC?iBf871<h:LCJJ12
 R2
@@ -687,7 +687,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1336 0
 R7
 r1
@@ -701,7 +701,7 @@ R10
 R11
 n@p@r@i@m_@g@d@f@f_@h@i@g@h
 UPRIM_GDFF_HIGH_SCLR_PRIORITY
-!s110 1702473934
+R13
 !i10b 1
 !s100 <;73YCn2^5=l2dQiDPz5`1
 R2
@@ -711,7 +711,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1379 0
 R7
 r1
@@ -735,7 +735,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1250 0
 R7
 r1
@@ -749,7 +749,7 @@ R10
 R11
 n@p@r@i@m_@g@d@f@f_@l@o@w
 UPRIM_GDFF_LOW_SCLR_PRIORITY
-R1
+R13
 !i10b 1
 !s100 9di^lVLj<ITzO^:5VNUNX0
 R2
@@ -759,7 +759,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1293 0
 R7
 r1
@@ -783,7 +783,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 483 28
 R7
 r1
@@ -806,7 +806,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 535 28
 R7
 r1
@@ -829,7 +829,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 435 24
 R7
 r1
@@ -852,7 +852,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 105 6
 R7
 r1
@@ -875,7 +875,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 86 6
 R7
 r1
@@ -898,7 +898,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 565 9
 R7
 r1
@@ -921,7 +921,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 576 9
 R7
 r1
@@ -944,7 +944,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 461 9
 R7
 r1
@@ -967,7 +967,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 472 9
 R7
 r1
@@ -990,7 +990,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 113 7
 R7
 r1

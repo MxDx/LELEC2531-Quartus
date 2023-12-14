@@ -11,7 +11,7 @@ cModel Technology
 Z0 d/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim
 vadder
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1702473938
+Z2 !s110 1702555008
 !i10b 1
 !s100 JBoN[T`X[Ile<XnNO1YIl2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -28,7 +28,7 @@ Z8 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z9 !s108 1702473938.000000
+Z9 !s108 1702555008.000000
 Z10 !s107 /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020|/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyARM_Pipelined.sv|
 !i113 1
@@ -169,17 +169,17 @@ vdmem
 R1
 R2
 !i10b 1
-!s100 mPla0_BnJ:^K@TAnI^=b42
+!s100 dfV4zj2ZWO6gJ_8?:eVL20
 R3
-I74OX=m7Eh0C;D`f7@8j[g1
+IHYKObEaJ[?@m`HVeN<ibZ1
 R4
 S1
 R0
-Z15 w1702400962
+Z15 w1702554508
 Z16 8/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyDE0_Nano.sv
 Z17 F/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyDE0_Nano.sv
-!i122 2
-L0 142 11
+!i122 3
+L0 148 21
 R8
 r1
 !s85 0
@@ -243,6 +243,33 @@ R11
 R12
 R13
 R14
+vFloatingPointAdder
+R1
+R2
+!i10b 1
+!s100 kZF3h`4gBd`:9=DRJ7A_W2
+R3
+I[N0H`lAJ`Ecg_Ikoc5BjC1
+R4
+S1
+R0
+w1702554185
+8/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyCoprocessor.sv
+F/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyCoprocessor.sv
+!i122 2
+L0 1 116
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyCoprocessor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020|/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyCoprocessor.sv|
+!i113 1
+R12
+R13
+R14
+n@floating@point@adder
 vflopenr
 R1
 R2
@@ -377,17 +404,17 @@ vimem
 R1
 R2
 !i10b 1
-!s100 7PNKe=jkjD8j[i5j[HBiB0
+!s100 SK`Z82bo3HH`]hQ1U`5P=3
 R3
-I0g6CQDI5<QHo0aoQmTdek2
+IT;_oaKhlHGa617?L@4<=O3
 R4
 S1
 R0
 R15
 R16
 R17
-!i122 2
-L0 154 9
+!i122 3
+L0 170 9
 R8
 r1
 !s85 0
@@ -455,17 +482,17 @@ vMyDE0_Nano
 R1
 R2
 !i10b 1
-!s100 QfiAzhnNRQl^_18dhL5iP2
+!s100 ^go7k=SJB3S_h2SNFHMc^2
 R3
-IS[a8EZGB0TYgmnnkiH[le2
+I_fg1afL_cjJkoVQ]of<M90
 R4
 S1
 R0
 R15
 R16
 R17
-!i122 2
-L0 6 131
+!i122 3
+L0 6 137
 R8
 r1
 !s85 0
@@ -482,17 +509,17 @@ vMyTestbench
 R1
 R2
 !i10b 1
-!s100 8GWzV1gRTE=fGREh5YS;C0
+!s100 nFc_g]U=EaRKHl9he5h5l0
 R3
-IT8@z@:A]MbPClXPk`^;2z1
+Im52o:DNBZzF8iJMkbe0hZ0
 R4
 S1
 R0
-w1702459633
+w1702554883
 8/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv
 F/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv
-!i122 3
-L0 3 57
+!i122 4
+L0 3 63
 R8
 r1
 !s85 0

@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/maxime/Documents/UCL/MASTER/M1/Q1/LELEC2531 - Design and architecture of digital electronic systems/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/simulation/modelsim
 vio_buf_opdrn
-Z1 !s110 1702473934
+Z1 !s110 1702555005
 !i10b 1
 !s100 o>nz1>Xc50eF;H7j8]Lef2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ R0
 Z4 w1536814712
 Z5 8/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/sgate.v
 Z6 F/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/sgate.v
-!i122 15
+!i122 26
 L0 248 22
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1702473934.000000
+Z8 !s108 1702555005.000000
 !s107 /home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/sgate.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|sgate_ver|/home/maxime/intelFPGA_lite/18.1/quartus/eda/sim_lib/sgate.v|
 !i113 1
@@ -43,7 +43,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 220 23
 R7
 r1
@@ -66,7 +66,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 190 26
 R7
 r1
@@ -89,7 +89,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 18 74
 R7
 r1
@@ -112,7 +112,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 95 91
 R7
 r1
@@ -135,7 +135,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1072 59
 R7
 r1
@@ -158,7 +158,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1036 32
 R7
 r1
@@ -181,7 +181,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 394 85
 R7
 r1
@@ -204,7 +204,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 1135 17
 R7
 r1
@@ -227,7 +227,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 572 72
 R7
 r1
@@ -250,7 +250,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 853 88
 R7
 r1
@@ -273,7 +273,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 483 85
 R7
 r1
@@ -296,7 +296,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 274 68
 R7
 r1
@@ -319,7 +319,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 945 42
 R7
 r1
@@ -342,7 +342,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 649 79
 R7
 r1
@@ -365,7 +365,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 732 57
 R7
 r1
@@ -388,7 +388,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 793 56
 R7
 r1
@@ -411,7 +411,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 991 41
 R7
 r1
@@ -434,7 +434,7 @@ R0
 R4
 R5
 R6
-!i122 15
+!i122 26
 L0 347 43
 R7
 r1

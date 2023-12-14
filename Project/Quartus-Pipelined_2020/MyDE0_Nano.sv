@@ -69,33 +69,39 @@ input logic 		     [1:0]		GPIO_1_IN
 	logic 		 	MemWriteM;
 	logic [31:0] 	PCF, InstrF, ReadDataM, ReadData_dmem, ReadData_spi;
 	
-	logic  			cs_dmem, cs_led, cs_spi;
+	logic  			cs_dmem, cs_led, cs_spi, cs_coproc;
 	logic [7:0] 	led_reg;
 	logic [31:0]	spi_data;
 	
 	assign clk   = CLOCK_50;
 	assign reset = GPIO_0_PI[1];
+
+	logic [31:0] 	ReadData_coproc;
   
 	// Instantiate processor and memories
 	arm arm(clk, reset, PCF, InstrF, MemWriteM, DataAdrM, WriteDataM, ReadDataM);
 	imem imem(PCF, InstrF);
 	dmem dmem(clk, cs_dmem, MemWriteM, DataAdrM, WriteDataM, ReadData_dmem);
+	FloatingPointAdder coproc(clk, DataAdrM, WriteDataM, ReadData_coproc);
 	
 	// Chip Select logic
 	
 	// Address MAP : 0x0000 - 0x03FF : RAM (255 words of 32 bits)
    //               0x0400 - 0x043F : SPI - 16 reg. of 32 bits
+   // 				0x0480 - 0x04FF : CoProcessor
    //               0x0500 :        : LED Reg
 
-	assign cs_dmem   = ~DataAdrM[11] & ~DataAdrM[10];											// 0x-0-- to 0x-3--
-	assign cs_spi    = ~DataAdrM[11] &  DataAdrM[10] & ~DataAdrM[9] & ~DataAdrM[8];	// 0x-4--
+	assign cs_dmem   = ~DataAdrM[11] & ~DataAdrM[10];								// 0x-0-- to 0x-3--
+	assign cs_spi    = ~DataAdrM[11] &  DataAdrM[10] & ~DataAdrM[9] & ~DataAdrM[8] & ~DataAdrM[7];	// 0x-4--
+	assign cs_coproc = ~DataAdrM[11] &  DataAdrM[10] & ~DataAdrM[9] & ~DataAdrM[8] & DataAdrM[7];	// 0x-48-
 	assign cs_led    = ~DataAdrM[11] &  DataAdrM[10] & ~DataAdrM[9] &  DataAdrM[8];	// 0x-5--
-	
+
 	// Read Data
 	always_comb
 		if (cs_dmem) ReadDataM = ReadData_dmem;
 		else if (cs_spi) ReadDataM = spi_data;
 		else if (cs_led) ReadDataM = {24'h000000, led_reg};
+		else if (cs_coproc) ReadDataM = ReadData_coproc;
 		else ReadDataM = 32'b0;
 	
 	// LED logic	
@@ -144,10 +150,20 @@ module dmem(input logic clk, we, cs,
             output logic [31:0] rd);
 				
   logic [31:0] RAM[255:0];
-    
-assign rd = RAM[a[31:2]]; // word aligned
 
-always_ff @(posedge clk)
+//   initial begin
+//   	 RAM[1] = 32'h3FC00000; // 1.5 in IEEE 754 single precision format
+//   	 RAM[2] = 32'h40000000; // 2.5 in IEEE 754 single precision format
+//   end 
+  
+  always_comb begin
+	case (a[31:2])
+		2'b01: 	 rd = 32'h3FC00000;  // 1.5 in IEEE 754 single precision format
+		2'b10: 	 rd = 32'h40000000; // 2.5 in IEEE 754 single precision format
+  	 	default: rd = RAM[a[31:2]]; // word aligned
+	endcase
+  end
+  always_ff @(posedge clk)
     if (cs & we) RAM[a[31:2]] <= wd;
 endmodule
 
@@ -156,7 +172,7 @@ module imem(input  logic [31:0] a,
 				
   logic [31:0] RAM[255:0];
   
-initial $readmemh("MyProgram.hex",RAM);
+initial $readmemh("TestCoProc.hex",RAM);
 assign rd = RAM[a[31:2]]; // word aligned
 
 endmodule

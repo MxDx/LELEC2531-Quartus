@@ -47,12 +47,18 @@ module MyTestbench();
   always @(negedge clk)
     begin
       if(MemWrite) begin
-        if(DataAdr === 220 & WriteData === 20) begin
+        if(DataAdr === 220 & WriteData === 32'h40600000) begin
           $display("Simulation succeeded");
           $stop;
         end
-        $display("Simulation failed");
-        $stop;
+        else if (DataAdr == 220) begin
+          $display("Simulation failed");
+          $display("WriteData = %h", WriteData);
+          $display("DataAdr = %h", DataAdr);
+          $stop;
+        end
+        $display("WriteData = %h", WriteData);
+        $display("DataAdr = %h", DataAdr);
       end
     end
      
