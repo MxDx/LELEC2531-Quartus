@@ -57,7 +57,7 @@ module spi_slave(
 	
 	logic [5:0] SPI_cnt;
 	logic 		SPI_cnt_reset, SPI_cnt_inc;
-	logic			SPI_reg_reset, SPI_reg_shift, SPI_reg_load;	
+	logic		SPI_reg_reset, SPI_reg_shift, SPI_reg_load;	
 	logic 		MISO_we, MISO_reset;
 	
 // State Register & Bit counter & SPI Register & MISO
@@ -65,17 +65,17 @@ module spi_slave(
 	always_ff @(posedge Clk) begin
 	
 		if (SPI_CS_sync)			state <= S0;
-		else 							state <= nextstate;
+		else 						state <= nextstate;
 		
-		if (SPI_cnt_reset) 	 	SPI_cnt <= 6'b0;
-		else if (SPI_cnt_inc) 	SPI_cnt <= SPI_cnt + 6'b1;
+		if (SPI_cnt_reset) 	 		SPI_cnt <= 6'b0;
+		else if (SPI_cnt_inc) 		SPI_cnt <= SPI_cnt + 6'b1;
 		
-		if (SPI_reg_reset) 		SPI_reg <= 40'b0;
-		else if (SPI_reg_shift)	SPI_reg <= {SPI_reg[38:0], SPI_MOSI};
-		else if (SPI_reg_load)	SPI_reg <= {misoRAM_read, SPI_reg[7:0]};
+		if (SPI_reg_reset) 			SPI_reg <= 40'b0;
+		else if (SPI_reg_shift)		SPI_reg <= {SPI_reg[38:0], SPI_MOSI};
+		else if (SPI_reg_load)		SPI_reg <= {misoRAM_read, SPI_reg[7:0]};
 		
 		if (MISO_reset) 			SPI_MISO <= 0;
-		else if (SPI_reg_load)	SPI_MISO <= misoRAM_read[31];
+		else if (SPI_reg_load)		SPI_MISO <= misoRAM_read[31];
 		else if (MISO_we)			SPI_MISO <= SPI_reg[39];
  			
 	end

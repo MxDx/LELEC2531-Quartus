@@ -159,7 +159,7 @@ module dmem(input logic clk, we, cs,
   always_comb begin
 	case (a[31:2])
 		2'b01: 	 rd = 32'h3FC00000;  // 1.5 in IEEE 754 single precision format
-		2'b10: 	 rd = 32'h40000000; // 2.5 in IEEE 754 single precision format
+		2'b10: 	 rd = 32'h40000000; // 2.0 in IEEE 754 single precision format
   	 	default: rd = RAM[a[31:2]]; // word aligned
 	endcase
   end

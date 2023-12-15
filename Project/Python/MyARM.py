@@ -17,7 +17,8 @@ sleep(0.1)
 GPIO.output(MyARM_ResetPin, GPIO.LOW)
 sleep(0.1)
 
-ToSPI = [0x00, 0x4F, 0x00, 0x00]
+ToSPI = [0x01]
+
 FromSPI = MySPI_FPGA.xfer2(ToSPI)
 
 print(FromSPI)
@@ -25,5 +26,3 @@ print(FromSPI)
 GPIO.output(MyARM_ResetPin, GPIO.HIGH)
 sleep(0.1)
 GPIO.output(MyARM_ResetPin, GPIO.LOW)
-
-
