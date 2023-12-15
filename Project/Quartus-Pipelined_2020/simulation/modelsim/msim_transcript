@@ -154,3 +154,74 @@
 # WriteData = 0000
 # DataAdr = 0404
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" work.MyTestbench
+# End time: 12:20:33 on Dec 15,2023, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 31
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" work.MyTestbench 
+# Start time: 12:20:33 on Dec 15,2023
+# Loading sv_std.std
+# Loading work.MyTestbench
+# Loading work.MyDE0_Nano
+# Loading work.arm
+# Loading work.controller
+# Loading work.flopr
+# Loading work.floprc
+# Loading work.conditional
+# Loading work.datapath
+# Loading work.mux2
+# Loading work.flopenr
+# Loading work.adder
+# Loading work.flopenrc
+# Loading work.regfile
+# Loading work.extend
+# Loading work.mux3
+# Loading work.alu
+# Loading work.eqcmp
+# Loading work.hazard
+# Loading work.imem
+# Loading work.dmem
+# Loading work.FloatingPointAdder
+# Loading work.spi_slave
+# ** Warning: (vsim-3017) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Too few port connections. Expected 32, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /MyTestbench/dut File: C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyDE0_Nano.sv
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'LED'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_DQM'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'EPCS_ASDO'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'EPCS_DATA0'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'EPCS_DCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'EPCS_NCSO'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'G_SENSOR_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'G_SENSOR_INT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'I2C_SCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'I2C_SDAT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'ADC_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'ADC_SADDR'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'ADC_SDAT'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'GPIO_2_IN'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'GPIO_0_PI_IN'.
+# ** Warning: (vsim-3722) C:/Users/maxim/Documents/Master1/LELEC2531-Quartus/Project/Quartus-Pipelined_2020/MyTestbench.sv(20): [TFMPC] - Missing connection for port 'GPIO_1_IN'.
+do wave.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: maxim  Hostname: MAXIME-LENOVO-W  ProcessID: 13872
+#           Attempting to use alternate WLF file "./wlftjbh5w5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjbh5w5
+run
+# WriteData = 0000
+# DataAdr = 0480
+# WriteData = 0000
+# DataAdr = 0484
+run
+# WriteData = 0000
+# DataAdr = 0404
